@@ -1,0 +1,173 @@
+/* FONT IMPORTS */
+
+	@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,700,600,800,900);
+	@import url(http://fonts.googleapis.com/css?family=Advent+Pro:400,200,100,300,500,600,700);
+	@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic);
+
+
+
+/*   SASS COLOR VARIABLES   */
+
+	$pinkJewel: #CC0066;
+	$redJewel: #990033;
+	$wineJewel: #660033;
+	$purpleJewel: #520052;
+	$darkblueJewel: #000066;
+	$blueJewel: #006699;
+	$tealJewel: #009999;
+
+
+
+
+	hr {
+		clear:both;
+		height:3px;
+		margin-top: -15px;
+		/* Old browsers */
+		background: #cc0066; 
+		/* FF3.6+ */
+		background: -moz-linear-gradient(left,  $pinkJewel 0%, $redJewel 18%, $wineJewel 30%, $purpleJewel 45%, $darkblueJewel 60%, $blueJewel 78%, $tealJewel 100%); 
+		/* Chrome,Safari4+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%,$pinkJewel), color-stop(18%,$redJewel), color-stop(30%,$wineJewel), color-stop(51%,$purpleJewel), color-stop(55%,$darkblueJewel), color-stop(78%,$blueJewel), color-stop(100%,$tealJewel)); 
+		/* Chrome10+,Safari5.1+ */
+		background: -webkit-linear-gradient(left,  $pinkJewel 0%,$redJewel 18%,$wineJewel 30%,$purpleJewel 45%,$darkblueJewel 55%,$blueJewel 78%,$tealJewel 100%); 
+		/* Opera 11.10+ */
+		background: -o-linear-gradient(left,  $pinkJewel 0%,$redJewel 18%,$wineJewel 30%,$purpleJewel 45%,$darkblueJewel 55%,$blueJewel 78%,$tealJewel 100%);
+		/* IE10+ */
+		background: -ms-linear-gradient(left,  $pinkJewel 0%,$redJewel 18%,$wineJewel 30%,$purpleJewel 45%,$darkblueJewel 55%,$blueJewel 78%,$tealJewel 100%); 
+		/* W3C *
+		background: linear-gradient(to right,  $pinkJewel 0%,$redJewel 18%,$wineJewel 30%,$purpleJewel 45%,$darkblueJewel 55%,$blueJewel 78%,$tealJewel 100%); 
+		/* IE6-9 */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0066', endColorstr='#009999',GradientType=1 ); 
+	}
+
+/* HERO CONTAINER */
+
+	.jumbotron {
+		width:100%;
+	}
+
+	/* Hero Text */
+
+		.hero-text {
+			float: left;
+			font-family: "Josefin Sans", sans serif;
+			font-weight: 400;
+			font-size: 1.28em;
+			color: $wineJewel;
+			line-height: 1em;
+			letter-spacing: -0.03em;
+		}
+
+	/*   IMAGES   */
+
+		.img-circle {
+			background-color: $redJewel;
+		}
+
+
+		.img-thumbnail {
+			margin-right:30px;
+			float:right;
+		}
+
+
+/* BACKGROUND STYLES */
+		
+		.pink-bg {
+			background-color: $pinkJewel;
+		}
+		.red-bg {
+			background-color: $redJewel;
+		}
+		.wine-bg {
+			background-color: $wineJewel;
+		}
+		.purple-bg {
+			background-color: $purpleJewel;
+		}
+		.darkblue-bg {
+			background-color: $darkblueJewel;
+		}
+		.blue-bg {
+			background-color: $blueJewel;
+		}
+		.teal-bg {
+			background-color: $tealJewel;
+		}
+
+
+/* BOX TYPOGRAPHY */
+
+	.box-text-left {
+			font-family: "Raleway", sans serif;
+			font-weight: 400;
+			font-size: 1.1em;
+			text-align: justify;
+			color: white;
+			line-height: 1em;
+			letter-spacing: -0.03em;
+		}	
+
+	.box-text-right {
+			font-family: "Raleway", sans serif;
+			font-weight: 400;
+			font-size: 1.1em;
+			color: white;
+			line-height: 1em;
+			letter-spacing: -0.03em;
+			text-align: right;
+		}	
+
+	/*  Color Styles   */
+
+		.pink-text {
+			color: $pinkJewel;
+		}
+		.red-text {
+			color: $redJewel;
+		}
+		.wine-text {
+			color: $wineJewel;
+		}
+		.purple-text {
+			color: $purpleJewel;
+		}
+		.darkblue-text {
+			color: $darkblueJewel;
+		}
+		.blue-text {
+			color: $blueJewel;
+		}
+		.teal-text {
+			color: $tealJewel;
+		}
+
+
+	/* Headings */
+
+		h1 {
+			font-family: "Raleway";
+			font-weight: 400;
+			font-size: 2.5em;
+			text-transform: uppercase;
+			text-align: center;
+		}
+
+		h2 {
+			margin: auto 0;
+			font-size: 6em;
+			font-family: "Advent Pro";
+		}
+
+		h2.number-left {
+			color: white;
+			padding-left: 15px;
+		}
+
+		h2.number-right {
+			color: white;
+			padding-right: 15px;
+		}
+
+

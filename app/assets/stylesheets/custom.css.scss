@@ -1,0 +1,97 @@
+/* FONT IMPORTS */
+
+	@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,700,600,800,900);
+	@import url(http://fonts.googleapis.com/css?family=Advent+Pro:400,200,100,300,500,600,700);
+	@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic);
+
+
+
+/*   SASS COLOR VARIABLES   */
+
+	$pinkJewel: #CC0066;
+	$redJewel: #990033;
+	$wineJewel: #660033;
+	$purpleJewel: #520052;
+	$darkblueJewel: #000066;
+	$blueJewel: #006699;
+	$tealJewel: #009999;
+
+
+
+/* NAVBAR TYPOGRAPHY */
+
+	/*  First Name Styling   */
+
+		.navbar-default .navbar-brand {
+			font-family: "Raleway";
+			font-weight: 400;
+			color: $redJewel;
+			font-size: 1.83em;
+			margin-right: 100px;
+			text-transform: uppercase;
+		}
+
+		.navbar-default .navbar-brand:hover {
+			color: $tealJewel;
+		}
+
+	/* Last Name Styling */
+
+		.contrast {
+			font-weight: 700;
+			color: $purpleJewel;
+			margin-right: 100px;
+			letter-spacing: 0.03em;
+			margin-left: 4px;
+		}
+
+		.contrast:hover {
+			color: $pinkJewel;
+		}
+
+
+	/* Nav Link Styling */
+
+		.navbar-default .navbar-nav>li>a {
+			font-family: "Raleway";
+			font-weight: 300;
+			font-size: 1.3em;
+			margin-right: 4px;
+		}
+		.navbar-default .navbar-nav>li>a:hover {
+			color: $redJewel;
+		}
+
+
+
+/* NAV BAR  */
+
+	.navbar-default {
+		background-color: #fff;
+		border: 0;
+		margin-bottom:40px;
+	}
+
+
+	hr {
+		clear:both;
+		height:3px;
+		margin-top: -15px;
+		/* Old browsers */
+		background: #cc0066; 
+		/* FF3.6+ */
+		background: -moz-linear-gradient(left,  $pinkJewel 0%, $redJewel 18%, $wineJewel 30%, $purpleJewel 45%, $darkblueJewel 60%, $blueJewel 78%, $tealJewel 100%); 
+		/* Chrome,Safari4+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%,$pinkJewel), color-stop(18%,$redJewel), color-stop(30%,$wineJewel), color-stop(51%,$purpleJewel), color-stop(55%,$darkblueJewel), color-stop(78%,$blueJewel), color-stop(100%,$tealJewel)); 
+		/* Chrome10+,Safari5.1+ */
+		background: -webkit-linear-gradient(left,  $pinkJewel 0%,$redJewel 18%,$wineJewel 30%,$purpleJewel 45%,$darkblueJewel 55%,$blueJewel 78%,$tealJewel 100%); 
+		/* Opera 11.10+ */
+		background: -o-linear-gradient(left,  $pinkJewel 0%,$redJewel 18%,$wineJewel 30%,$purpleJewel 45%,$darkblueJewel 55%,$blueJewel 78%,$tealJewel 100%);
+		/* IE10+ */
+		background: -ms-linear-gradient(left,  $pinkJewel 0%,$redJewel 18%,$wineJewel 30%,$purpleJewel 45%,$darkblueJewel 55%,$blueJewel 78%,$tealJewel 100%); 
+		/* W3C *
+		background: linear-gradient(to right,  $pinkJewel 0%,$redJewel 18%,$wineJewel 30%,$purpleJewel 45%,$darkblueJewel 55%,$blueJewel 78%,$tealJewel 100%); 
+		/* IE6-9 */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0066', endColorstr='#009999',GradientType=1 ); 
+	}
+
