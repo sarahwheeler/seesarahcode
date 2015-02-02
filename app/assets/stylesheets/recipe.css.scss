@@ -43,9 +43,13 @@
 
 /* HERO CONTAINER */
 
+	.jumbotron {
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+
 	.panel {
-		width: 20%;
-		min-width: 120px;
+		width: 100%;
 		padding: 18px 18px;
 		display: inline-block;
 		background-color: #F8F8F8;
@@ -61,11 +65,12 @@
 			float: left;
 			font-family: "Josefin Sans", sans serif;
 			font-weight: 400;
-			font-size: 1.4em;
+			font-size: 0.95em;
 			color: $wineJewel;
-			line-height: 1.1em;
+			line-height: 1em;
 			letter-spacing: -0.03em;
 			text-align: justify;
+			padding-top: 10px;
 		}
 
 	/*   IMAGES   */
@@ -81,32 +86,40 @@
 
 
 		.img-thumbnail {
-			margin-right: 10px;
+			margin-right: 30px;
+			float: right;
 		}
 
 
 /* BACKGROUND STYLES */
 		
+		.pink-bg, .red-bg, .wine-bg, .purple-bg, .blue-bg, .teal-bg, .darkblue-bg {
+			width: 65%;
+			margin: auto;
+			margin-top: 30px;
+			border-radius: 8px;
+		}
+
 		.pink-bg {
-			background-color: $pinkJewel;
+			background-color: #ea99c1;
 		}
 		.red-bg {
 			background-color: $redJewel;
 		}
 		.wine-bg {
-			background-color: $wineJewel;
+			background-color: #b27f99;
 		}
 		.purple-bg {
-			background-color: $purpleJewel;
+			background-color: #dcccdc;
 		}
 		.darkblue-bg {
-			background-color: $darkblueJewel;
+			background-color: #66a3c1;
 		}
 		.blue-bg {
-			background-color: $blueJewel;
+			background-color: #cce0ea;
 		}
 		.teal-bg {
-			background-color: $tealJewel;
+			background-color: #b2e0e0;
 		}
 
 
@@ -117,7 +130,7 @@
 			font-weight: 400;
 			font-size: 1.1em;
 			text-align: justify;
-			color: white;
+			color: $darkblueJewel;
 			line-height: 1em;
 			letter-spacing: -0.03em;
 		}	
@@ -126,11 +139,16 @@
 			font-family: "Raleway", sans serif;
 			font-weight: 400;
 			font-size: 1.1em;
-			color: white;
+			color: $darkblueJewel;
 			line-height: 1em;
 			letter-spacing: -0.03em;
 			text-align: right;
 		}	
+
+	.recipe-title {
+		text-align: center;
+		margin: 35px 0px 30px 100px;	
+	}
 
 	/*  Color Styles   */
 
@@ -173,14 +191,17 @@
 			font-family: "Advent Pro";
 		}
 
-		h2.number-left {
-			color: white;
+		h2.number-one, h2.number-three, h2.number-five {
+			color: $purpleJewel;
 			padding-left: 15px;
 		}
 
-		h2.number-right {
-			color: white;
+		h2.number-two, h2.number-four {
+			color: $wineJewel;
 			padding-right: 15px;
 		}
+
+
+
 
 
