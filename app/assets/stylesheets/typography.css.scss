@@ -1,0 +1,145 @@
+/* FONT IMPORTS */
+
+	@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,700,600,800,900);
+	@import url(http://fonts.googleapis.com/css?family=Antic);
+
+
+/*   SASS COLOR VARIABLES   */
+
+	$pinkJewel: #CC0066;
+	$redJewel: #990033;
+	$wineJewel: #660033;
+	$purpleJewel: #520052;
+	$darkblueJewel: #000066;
+	$blueJewel: #006699;
+	$tealJewel: #009999;
+
+
+/*  HEADINGS  */
+
+	h1 {
+		font-family: "Raleway";
+		font-weight: 400;
+		font-size: 2.5em;
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+	h2 {
+		margin: auto 0;
+		font-size: 6em;
+		font-family: "Advent Pro";
+	}
+
+	h4 {
+		color: $tealJewel;
+		font-family: "Raleway", sans-serif;
+	}
+
+/*  TEXT  */
+
+		p {
+			font-family: 'Antic', sans-serif;
+			font-size: 1.2em;
+		}
+
+/*  Color Styles   */
+
+		.pink-text {
+			color: $pinkJewel;
+		}
+		.red-text {
+			color: $redJewel;
+		}
+		.wine-text {
+			color: $wineJewel;
+		}
+		.purple-text {
+			color: $purpleJewel;
+		}
+		.darkblue-text {
+			color: $darkblueJewel;
+		}
+		.blue-text {
+			color: $blueJewel;
+		}
+		.teal-text {
+			color: $tealJewel;
+		}
+
+/*  HOMEPAGE Hero Text  */
+
+		.hero-text {
+			float: left;
+			font-family: "Josefin Sans", sans-serif;
+			font-weight: 400;
+			font-size: 0.75em;
+			color: $wineJewel;
+			line-height: 1em;
+			letter-spacing: -0.03em;
+			text-align: justify;
+			padding-top: 10px;
+		}
+
+
+/*   RECIPE PAGE  */
+
+	h2.number-one, h2.number-three, h2.number-five {
+		color: $purpleJewel;
+		padding-left: 15px;
+	}
+
+	h2.number-two, h2.number-four {
+		color: $wineJewel;
+		padding-right: 15px;
+	}
+
+	/* RECIPE BOXES */
+
+		.box-text-left {
+				font-family: "Raleway", sans-serif;
+				font-weight: 400;
+				font-size: 1.1em;
+				text-align: justify;
+				color: $darkblueJewel;
+				line-height: 1em;
+				letter-spacing: -0.03em;
+			}	
+
+		.box-text-right {
+				font-family: "Raleway", sans serif;
+				font-weight: 400;
+				font-size: 1.1em;
+				color: $darkblueJewel;
+				line-height: 1em;
+				letter-spacing: -0.03em;
+				text-align: right;
+			}	
+
+		.recipe-title {
+			font-family: "Raleway", sans-serif;
+			text-align: center;
+			margin: 35px 0px 30px 100px;	
+		}
+
+		p.recipe {
+			font-family: "Raleway", sans-serif;
+			font-size: 1em;
+		}
+
+
+/*   RESUME TYPOGRAPHY  */
+
+p.job-description {
+	text-align: justify;
+}
+
+p.job-dates {
+	font-size: 1em;
+	color: $redJewel;
+	margin: -7px 0 18px 0;
+}
+
+
+
+

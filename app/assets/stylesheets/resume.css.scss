@@ -8,12 +8,13 @@
 	$blueJewel: #006699;
 	$tealJewel: #009999;
 
-	
+
 hr.minibar {
 	clear:both;
 	height:2px;
 	width: 25%;
-	margin-top: 25px;
+	margin-top: 45px;
+	margin-bottom: 55px;
 	/* Old browsers */
 	background: #cc0066; 
 	/* FF3.6+ */
@@ -30,4 +31,11 @@ hr.minibar {
 	background: linear-gradient(to right,  $pinkJewel 0%,$redJewel 18%,$wineJewel 30%,$purpleJewel 45%,$darkblueJewel 55%,$blueJewel 78%,$tealJewel 100%); 
 	/* IE6-9 */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0066', endColorstr='#009999',GradientType=1 ); 
+}
+
+/*  LAYOUT  */
+
+.resume-box {
+	width: 60%;
+	margin: auto;
 }
