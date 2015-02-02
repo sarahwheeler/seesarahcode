@@ -3,7 +3,7 @@
 	@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,700,600,800,900);
 	@import url(http://fonts.googleapis.com/css?family=Advent+Pro:400,200,100,300,500,600,700);
 	@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic);
-
+	@import url(http://fonts.googleapis.com/css?family=Antic);
 
 
 /*   SASS COLOR VARIABLES   */
@@ -15,8 +15,6 @@
 	$darkblueJewel: #000066;
 	$blueJewel: #006699;
 	$tealJewel: #009999;
-
-
 
 
 	hr {
@@ -59,19 +57,7 @@
 		display: inline-flex;
 	}
 
-	/* Hero Text */
 
-		.hero-text {
-			float: left;
-			font-family: "Josefin Sans", sans serif;
-			font-weight: 400;
-			font-size: 0.95em;
-			color: $wineJewel;
-			line-height: 1em;
-			letter-spacing: -0.03em;
-			text-align: justify;
-			padding-top: 10px;
-		}
 
 	/*   IMAGES   */
 
@@ -123,83 +109,9 @@
 		}
 
 
-/* BOX TYPOGRAPHY */
-
-	.box-text-left {
-			font-family: "Raleway", sans serif;
-			font-weight: 400;
-			font-size: 1.1em;
-			text-align: justify;
-			color: $darkblueJewel;
-			line-height: 1em;
-			letter-spacing: -0.03em;
-		}	
-
-	.box-text-right {
-			font-family: "Raleway", sans serif;
-			font-weight: 400;
-			font-size: 1.1em;
-			color: $darkblueJewel;
-			line-height: 1em;
-			letter-spacing: -0.03em;
-			text-align: right;
-		}	
-
-	.recipe-title {
-		text-align: center;
-		margin: 35px 0px 30px 100px;	
-	}
-
-	/*  Color Styles   */
-
-		.pink-text {
-			color: $pinkJewel;
-		}
-		.red-text {
-			color: $redJewel;
-		}
-		.wine-text {
-			color: $wineJewel;
-		}
-		.purple-text {
-			color: $purpleJewel;
-		}
-		.darkblue-text {
-			color: $darkblueJewel;
-		}
-		.blue-text {
-			color: $blueJewel;
-		}
-		.teal-text {
-			color: $tealJewel;
-		}
 
 
-	/* Headings */
 
-		h1 {
-			font-family: "Raleway";
-			font-weight: 400;
-			font-size: 2.5em;
-			text-transform: uppercase;
-			text-align: center;
-		}
-
-		h2 {
-			margin: auto 0;
-			font-size: 6em;
-			font-family: "Advent Pro";
-		}
-
-		h2.number-one, h2.number-three, h2.number-five {
-			color: $purpleJewel;
-			padding-left: 15px;
-		}
-
-		h2.number-two, h2.number-four {
-			color: $wineJewel;
-			padding-right: 15px;
-		}
 
 
 
