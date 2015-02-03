@@ -16,13 +16,16 @@
 
 
 /*  HEADINGS  */
+	
+	h1, h2, h3, h4, h5, h6 {
+		text-align: center;
+	}
 
 	h1 {
 		font-family: "Raleway";
 		font-weight: 400;
 		font-size: 2.5em;
 		text-transform: uppercase;
-		text-align: center;
 		color: $pinkJewel;
 	}
 
@@ -30,6 +33,10 @@
 		margin: auto 0;
 		font-size: 6em;
 		font-family: "Advent Pro";
+	}
+
+	h3 {
+		color: $darkblueJewel;
 	}
 
 	h4 {
@@ -44,10 +51,20 @@
 			font-size: 1.2em;
 		}
 
+		ul.bulletless {
+			list-style: none;
+			text-align: left;
+			margin-left: 38%;
+			li {
+				line-height: 1.6em;
+			}
+		}
+
 		li {
 			font-family: 'Antic', sans-serif;
 			font-size: 1.2em;
 		}
+
 
 /*  Color Styles   */
 

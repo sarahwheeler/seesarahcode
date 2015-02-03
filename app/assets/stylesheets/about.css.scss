@@ -1,0 +1,16 @@
+.about-tech, .about-personality,
+.about-care, .about-education, .about-skills {
+
+}
+
+.container {
+	width: 60%;
+	margin: auto;
+}
+
+.tech-link, .personality-link, .edu-link,
+.care-link, .skills-link {
+	:hover {
+		text-decoration: none;
+	}
+}
