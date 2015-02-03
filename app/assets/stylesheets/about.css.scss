@@ -8,7 +8,7 @@
 	margin: auto;
 }
 
-.tech-link, .personality-link, .edu-link,
-.care-link, .skills-link {
-
+.tech-link:hover, .personality-link:hover, .edu-link:hover,
+.care-link:hover, .skills-link:hover {
+	text-decoration: none;
 }

@@ -1,8 +1,7 @@
 $(document).ready(function() {
 
 	$('.tech-link').on('click', function(e) {
-		$('.container div').empty();
-		$('.about-tech').fadeIn('slow');
+		$('.about-tech').fadeToggle('slow');
 		e.stopPropagation();
 	});
 
