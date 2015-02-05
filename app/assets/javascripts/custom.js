@@ -1,28 +1,30 @@
 $(document).ready(function() {
 
-	$('.tech-link').on('click', function(e) {
-		$('.about-tech').fadeToggle('slow');
-		e.stopPropagation();
+	$('.tech-link').on('click', function(event) {
+		$('.container').html(function() {
+			$('.about-tech').fadeToggle('slow');
+			event.preventDefault();
+		})
 	});
 
-	$('.personality-link').on('click', function(e) {
+	$('.personality-link').on('click', function(event) {
 		$('.about-personality').fadeToggle('slow');
-		e.stopPropagation();
+		event.preventDefault();
 	});
 
-	$('.care-link').on('click', function(e) {
+	$('.care-link').on('click', function(event) {
 		$('.about-care').fadeToggle('slow');
-		e.stopPropagation();
+		event.preventDefault();
 	});
 
-	$('.edu-link').on('click', function(e) {
+	$('.edu-link').on('click', function(event) {
 		$('.about-education').fadeToggle('slow');
-		e.stopPropagation();
+		event.preventDefault();
 	});
 
-	$('.skills-link').on('click', function(e) {
+	$('.skills-link').on('click', function(event) {
 		$('.about-skills').fadeToggle('slow');
-		e.stopPropagation();
+		event.preventDefault();
 	});
 
 });
