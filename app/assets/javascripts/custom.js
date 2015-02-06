@@ -1,15 +1,26 @@
 $(document).ready(function() {
 
 	$('.tech-link').on('click', function(event) {
-		$('.container').html(function() {
+		$('.container').empty();
+		$('.container').append(function() {
 			$('.about-tech').fadeToggle('slow');
 			event.preventDefault();
-		})
+		});
+
+		//$('.container').html(function() {
+		//	$('.about-tech').fadeToggle('slow');
+		//	event.preventDefault();
+		//})
 	});
 
 	$('.personality-link').on('click', function(event) {
-		$('.about-personality').fadeToggle('slow');
-		event.preventDefault();
+		$('.container').empty();
+		$('.container').append(function() {
+			$('.about-personality').fadeToggle('slow');
+			event.preventDefault();
+		});
+		//$('.about-personality').fadeToggle('slow');
+		//event.preventDefault();
 	});
 
 	$('.care-link').on('click', function(event) {
