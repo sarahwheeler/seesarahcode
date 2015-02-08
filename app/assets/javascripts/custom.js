@@ -2,40 +2,27 @@ $(document).ready(function() {
 
 	$('.tech-link').on('click', function(event) {
 		$('.container').empty();
-		$('.container').append(function() {
-			$('.about-tech').fadeToggle('slow');
-			event.preventDefault();
-		});
-
-		//$('.container').html(function() {
-		//	$('.about-tech').fadeToggle('slow');
-		//	event.preventDefault();
-		//})
+		$('.container').append($('.about-tech').fadeToggle('slow'));
 	});
 
 	$('.personality-link').on('click', function(event) {
 		$('.container').empty();
-		$('.container').append(function() {
-			$('.about-personality').fadeToggle('slow');
-			event.preventDefault();
-		});
-		//$('.about-personality').fadeToggle('slow');
-		//event.preventDefault();
+		$('.container').append($('.about-personality').fadeToggle('slow'));
 	});
 
 	$('.care-link').on('click', function(event) {
-		$('.about-care').fadeToggle('slow');
-		event.preventDefault();
+		$('.container').empty();
+		$('.container').append($('.about-care').fadeToggle('slow'));
 	});
 
 	$('.edu-link').on('click', function(event) {
-		$('.about-education').fadeToggle('slow');
-		event.preventDefault();
+		$('.container').empty();
+		$('.container').append($('.about-education').fadeToggle('slow'));
 	});
 
 	$('.skills-link').on('click', function(event) {
-		$('.about-skills').fadeToggle('slow');
-		event.preventDefault();
+		$('.container').empty();
+		$('.container').append($('.about-skills').fadeToggle('slow'));
 	});
 
 });
