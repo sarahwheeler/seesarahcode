@@ -25,4 +25,9 @@ $(document).ready(function() {
 		$('.container').append($('.about-skills').fadeToggle('slow'));
 	});
 
+	$('.fun-link').on('click', function(event) {
+		$('.container').empty();
+		$('.container').append($('.about-fun').fadeToggle('slow'));
+	});
+
 });
