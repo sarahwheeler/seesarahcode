@@ -1,7 +1,16 @@
+/*   SASS COLOR VARIABLES   */
+
+	$pinkJewel: #CC0066;
+	$redJewel: #990033;
+	$wineJewel: #660033;
+	$purpleJewel: #520052;
+	$darkblueJewel: #000066;
+	$blueJewel: #006699;
+	$tealJewel: #009999;
+
 .about-tech, .about-personality,
 .about-care, .about-education, .about-skills {
 	display: none;
-	width: 50%;
 	margin: auto;
 }
 
@@ -13,4 +22,10 @@
 .tech-link:hover, .personality-link:hover, .edu-link:hover,
 .care-link:hover, .skills-link:hover {
 	text-decoration: none;
+	cursor: pointer;
+	color: $tealJewel;
+}
+
+.about-q {
+	padding: 10px 0;
 }
