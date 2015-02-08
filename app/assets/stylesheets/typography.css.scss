@@ -153,17 +153,32 @@
 
 /*   RESUME TYPOGRAPHY  */
 
-p.job-description {
-	text-align: justify;
-}
+	p.job-description {
+		text-align: justify;
+	}
 
-p.job-dates {
-	font-size: 1em;
-	color: $redJewel;
-	margin: -7px 0 7px 0;
-}
+	p.job-dates {
+		font-size: 1em;
+		color: $redJewel;
+		margin: -7px 0 7px 0;
+	}
 
+/*   PORTFOLIO TYPOGRAPHY  */
 
+	.project-title, a .project-title {
+		font-family: "Raleway", sans-serif;
+		text-align: left;
+		font-weight: 600;
+		font-size: 1.4em;
+		margin-top: 1em;
+	}
+	a.project-title:hover {
+		text-decoration: none;
+	}
 
+	p.description, p.gems-libs, p.language {
+		font-family: 'Antic', sans-serif;
+		font-size: 0.8em;
+	}
 
 
