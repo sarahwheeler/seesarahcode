@@ -165,12 +165,12 @@
 
 /*   PORTFOLIO TYPOGRAPHY  */
 
-	.project-title, a .project-title {
+	.project-title, a.project-title {
 		font-family: "Raleway", sans-serif;
 		text-align: left;
 		font-weight: 600;
 		font-size: 1.4em;
-		margin-top: 1em;
+		color: $pinkJewel;
 	}
 	a.project-title:hover {
 		text-decoration: none;
