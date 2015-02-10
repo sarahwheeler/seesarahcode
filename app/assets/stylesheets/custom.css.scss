@@ -76,6 +76,11 @@
 		float: right;
 	}
 
+	.social-tray {
+		margin-left: 15px;
+		margin-top: -13px;
+	}
+
 	hr {
 		clear:both;
 		height:3px;
@@ -96,5 +101,9 @@
 		background: linear-gradient(to right,  $pinkJewel 0%,$redJewel 18%,$wineJewel 30%,$purpleJewel 45%,$darkblueJewel 55%,$blueJewel 78%,$tealJewel 100%); 
 		/* IE6-9 */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0066', endColorstr='#009999',GradientType=1 ); 
+	}
+
+	.social-github, .social-twitter, .social-linkedin {
+		margin-right: 12px;
 	}
 
