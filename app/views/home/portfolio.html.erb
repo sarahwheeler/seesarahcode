@@ -79,7 +79,9 @@
 		<div class="col-xs-4">
 			<%= link_to	"Cultivate", "http://cultivate.herokuapp.com/", class: "project-title" %>
 			<div class="github-icon"></div> 
-			<%= link_to "Watch app demo on YouTube", "https://www.youtube.com/watch?v=wepjNsRelKQ" %>
+			<%= link_to "https://www.youtube.com/watch?v=wepjNsRelKQ" do %>
+				<%= image_tag 'YouTube-logo-dark.png', class: 'youtube-btn', alt: "Watch app demo on YouTube", size: "72x45" %>
+			<% end %>
 			<h4>Written in:</h4> 
 				<p class="language">Ruby on Rails</p>
 			<h4>Gems and Libraries:</h4>
@@ -130,7 +132,9 @@
 		<div class="col-xs-4">
 			<div class="project-title">Log2Layout Gem</div>
 			<div class="github-icon"></div>
-			<%= link_to "Watch gem demo on YouTube", "https://www.youtube.com/watch?v=7KzTuq585RM" %>
+			<%= link_to "https://www.youtube.com/watch?v=7KzTuq585RM" do %>
+				<%= image_tag 'YouTube-logo-dark.png', class: 'youtube-btn', alt: "Watch gem demo on YouTube", size: "72x45" %>
+			<% end %>
 			<h4>Written in:</h4> 
 				<p class="language">Pure Ruby</p>
 			<h4>Gems and Libraries:</h4>

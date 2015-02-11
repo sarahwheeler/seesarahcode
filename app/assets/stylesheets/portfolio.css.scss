@@ -9,3 +9,7 @@
 .port-video {
 	margin-top: 30px;
 }
+img.youtube-btn {
+	opacity: 0.5;	
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+}
