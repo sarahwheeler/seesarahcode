@@ -1,19 +1,46 @@
 .port-project {
 	padding: 2em 0 2em 0;
 }
-
 .img-portfolio {
 	float: left;
 }
-
 .port-video {
 	margin-top: 30px;
 }
-img.youtube-btn {
-	opacity: 0.5;	
-	filter: alpha(opacity=50); /* For IE8 and earlier */
+.youtube-btn {
+	background: image-url('YouTube-logo-dark.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 45px;
+	width: 72px;
+	opacity: 0.75;
+	filter: alpha(opacity=75); /* For IE8 and earlier */
+}
+.youtube-btn:hover {
+	background: image-url('YouTube-logo-color.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 45px;
+	width: 72px;
+	opacity: 0.75;
+	filter: alpha(opacity=75); /* For IE8 and earlier */
 }
 .heroku-btn {
+	display: inline-flex;
+	padding-left: 10px;
 	color: #000;
 	opacity: 0.5;
+}
+.icon-belt {
+	display: inline-flex;
+	margin-top: -20px;
+	margin-bottom: 23px;
+}
+.port-github {
+	margin-top: -5px;
+	opacity: 0.75;
+	filter: alpha(opacity=75); /* For IE8 and earlier */
+}
+.port-title {
+	display: inline-flex;
 }
