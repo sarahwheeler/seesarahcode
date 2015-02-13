@@ -148,12 +148,13 @@
 		</div>
 		<div class="col-xs-1"></div>
 		<div class="col-xs-4">
-			<div class="project-title">Log2Layout Gem</div>
+			<%= link_to	"Log2Layout Gem", "http://github.com/sarahwheeler/Log2Layout", class: "project-title" %>
+			<br>
 			<div class="icon-belt">
-				<%= link_to "https://github.com/sarahwheeler/Log2Layout" do %>
-      		<%= image_tag 'GitHub-Mark-64px.png', class: 'port-github', alt: "Link to Github", size: "25x25" %>
+				<%= link_to "http://github.com/sarahwheeler/Log2Layout" do %>
+      		<div class="port-github"></div>
     		<% end %>
-    		<%= link_to "https://www.youtube.com/watch?v=7KzTuq585RM" do %>
+    		<%= link_to "http://www.youtube.com/watch?v=7KzTuq585RM" do %>
 					<div class='youtube-btn'></div>
 				<% end %>
 			</div>
@@ -163,7 +164,7 @@
 			<h4>Gems and Libraries:</h4>
 				<p class="gems-libs">Mechanize, Logger, Open-URI, Win32OLE</p>
 			<h4>Description:</h4> 
-				<p class="description">Culminating project for my "Ruby: The Core Language" class at the University of Washington.</p>
+				<p class="description">Culminating project for my "Ruby: The Core Language" class at the University of Washington. This gem was written to perform a time-hungry task at my former job as an editor--downloading spreadsheet lists of Wikipedia images needed for book production. Log2Layout uses a web scraper to automatically download and rename these images, compacting many hours of work into just a quick one-line command line script. It's so useful, my old production team still uses it to this day!</p>
 		</div>
 		<div class="col-xs-2"></div>
 	</div>
