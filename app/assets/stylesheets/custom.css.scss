@@ -73,7 +73,7 @@
 	}
 
 	.navbar-nav {
-		float: right;
+		float: right;  
 	}
 
 	.social-tray {
@@ -103,7 +103,56 @@
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0066', endColorstr='#009999',GradientType=1 ); 
 	}
 
-	.social-github, .social-twitter, .social-linkedin {
+	.social-github, .social-twitter, .social-linkedin,
+	.social-github:hover, .social-twitter:hover, 
+	.social-linkedin:hover {
 		margin-right: 12px;
+		display: inline-flex;
+	}
+	.social-github {
+		background: image-url('github-logo-dark.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 19px;
+		height: 19px;
+		opacity: 0.75;
+		filter: alpha(opacity=75); /* For IE8 and earlier */
+	}
+	.social-github:hover {
+		background: image-url('github-logo-blue.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 19px;
+		height: 19px;
+	}
+	.social-twitter {
+		background: image-url('twitter-logo-dark.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 18px;
+		height: 18px;
+		opacity: 0.75;
+		filter: alpha(opacity=75); /* For IE8 and earlier */
+	}
+	.social-twitter:hover {
+		background: image-url('twitter-logo-blue.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 18px;
+		height: 18px;
+	}
+	.social-linkedin {
+		background: image-url('linkedin-logo-dark.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 18px;
+		height: 18px;
+	}
+	.social-linkedin:hover {
+		background: image-url('linkedin-logo-blue.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 18px;
+		height: 18px;
 	}
 
