@@ -13,6 +13,8 @@
 	$darkblueJewel: #000066;
 	$blueJewel: #006699;
 	$tealJewel: #009999;
+	$emeraldJewel: #009980;
+	$brightblueJewel: #3284AD;
 
 
 /*  HEADINGS  */
@@ -178,6 +180,7 @@
 	}
 	a.project-title:hover {
 		text-decoration: none;
+		color: $brightblueJewel;
 	}
 
 	p.description, p.gems-libs, p.language {
