@@ -10,11 +10,11 @@
 	$redJewel: #990033;
 	$wineJewel: #660033;
 	$purpleJewel: #520052;
-	$darkblueJewel: #000066;
+	$darkBlueJewel: #000066;
 	$blueJewel: #006699;
 	$tealJewel: #009999;
 	$emeraldJewel: #009980;
-	$brightblueJewel: #3284AD;
+	$brightBlueJewel: #3284AD;
 
 
 /*  HEADINGS  */
@@ -38,7 +38,7 @@
 	}
 
 	h3 {
-		color: $darkblueJewel;
+		color: $darkBlueJewel;
 	}
 
 	h4 {
@@ -70,6 +70,9 @@
 		a {
 			text-decoration: none;
 		}
+		a:hover {
+			text-decoration: none;
+		}
 
 
 /*  Color Styles   */
@@ -87,7 +90,7 @@
 			color: $purpleJewel;
 		}
 		.darkblue-text {
-			color: $darkblueJewel;
+			color: $darkBlueJewel;
 		}
 		.blue-text {
 			color: $blueJewel;
@@ -130,7 +133,7 @@
 				font-weight: 400;
 				font-size: 1.1em;
 				text-align: justify;
-				color: $darkblueJewel;
+				color: $darkBlueJewel;
 				line-height: 1em;
 				letter-spacing: -0.03em;
 			}	
@@ -139,7 +142,7 @@
 				font-family: "Raleway", sans serif;
 				font-weight: 400;
 				font-size: 1.1em;
-				color: $darkblueJewel;
+				color: $darkBlueJewel;
 				line-height: 1em;
 				letter-spacing: -0.03em;
 				text-align: right;
@@ -171,16 +174,16 @@
 
 /*   PORTFOLIO TYPOGRAPHY  */
 
-	.project-title, a.project-title {
+	.project-title, a .project-title {
 		font-family: "Raleway", sans-serif;
 		text-align: left;
 		font-weight: 600;
 		font-size: 1.4em;
 		color: $pinkJewel;
 	}
-	a.project-title:hover {
+	a .project-title:hover {
 		text-decoration: none;
-		color: $brightblueJewel;
+		color: $brightBlueJewel;
 	}
 
 	p.description, p.gems-libs, p.language {

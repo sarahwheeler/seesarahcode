@@ -4,11 +4,11 @@
 	$redJewel: #990033;
 	$wineJewel: #660033;
 	$purpleJewel: #520052;
-	$darkblueJewel: #000066;
+	$darkBlueJewel: #000066;
 	$blueJewel: #006699;
 	$tealJewel: #009999;
 	$emeraldJewel: #009980;
-	$brightblueJewel: #3284AD;
+	$brightBlueJewel: #3284AD;
 
 .port-project {
 	padding: 2em 0 2em 0;
@@ -20,6 +20,7 @@
 	margin-top: 30px;
 }
 .youtube-btn {
+	display: inline-flex;	
 	background: image-url('youtube-logo-dark.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -27,8 +28,10 @@
 	width: 72px;
 	opacity: 0.75;
 	filter: alpha(opacity=75); /* For IE8 and earlier */
+	margin-left: 18px;
 }
 .youtube-btn:hover {
+	display: inline-flex;
 	background: image-url('youtube-logo-color.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -37,28 +40,25 @@
 	opacity: 0.75;
 	filter: alpha(opacity=75); /* For IE8 and earlier */
 }
-.heroku-btn {
+a .glyphicon.heroku-btn {
 	display: inline-flex;
-	padding-left: 10px;
-	color: #000;
-	opacity: 0.5;
-	margin-bottom: -5px;
+	font-size: 12pt;
+	padding-left: 7px;
+	vertical-align: text-top;
+	color: $emeraldJewel;
 }
-.heroku-btn:hover {
-	color: $brightblueJewel;
-	text-decoration: none;
-	opacity: 1.0;
+a:hover .heroku-btn {
+	color: $blueJewel;
 }
 .icon-belt {
 	display: inline-flex;
-	margin-top: -20px;
-	margin-bottom: 23px;
+	margin-top: 15px;
+	width: 100%;
 }
 .port-github {
 	background: image-url('github-logo-dark.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
-	margin-top: 10px;
 	opacity: 0.75;
 	width: 25px;
 	height: 25px;
@@ -70,7 +70,6 @@
 	background-size: 100%;
 	width: 25px;
 	height: 25px;
-	margin-top: 10px;
 }
 .port-title {
 	display: inline-flex;
