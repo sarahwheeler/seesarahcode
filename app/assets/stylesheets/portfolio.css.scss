@@ -24,19 +24,20 @@
 	background: image-url('youtube-logo-dark.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
-	height: 45px;
-	width: 72px;
+	height: 20px;
+	width: 52px;
 	opacity: 0.75;
 	filter: alpha(opacity=75); /* For IE8 and earlier */
 	margin-left: 18px;
+	margin-top: 3px;
 }
 .youtube-btn:hover {
 	display: inline-flex;
 	background: image-url('youtube-logo-color.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
-	height: 45px;
-	width: 72px;
+	height: 20px;
+	width: 52px;
 	opacity: 0.75;
 	filter: alpha(opacity=75); /* For IE8 and earlier */
 }
@@ -52,7 +53,7 @@ a:hover .heroku-btn {
 }
 .icon-belt {
 	display: inline-flex;
-	margin-top: 15px;
+	margin-top: 20px;
 	width: 100%;
 }
 .port-github {
@@ -73,4 +74,13 @@ a:hover .heroku-btn {
 }
 .port-title {
 	display: inline-flex;
+}
+.cultivate-vid {
+	display: none;
+}
+.circle {
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	background-color: $tealJewel;
 }
