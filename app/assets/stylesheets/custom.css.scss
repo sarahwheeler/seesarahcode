@@ -151,6 +151,7 @@
 		height: 18px;
 		opacity: 0.75;
 		filter: alpha(opacity=75); /* For IE8 and earlier */
+		vertical-align: top;
 	}
 	.social-linkedin:hover {
 		background: image-url('linkedin-logo-blue.png');
@@ -158,5 +159,7 @@
 		background-size: 100%;
 		width: 18px;
 		height: 18px;
+		opacity: 1.0;
+		filter: alpha(opacity=100); /* For IE8 and earlier */
 	}
 
