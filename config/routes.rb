@@ -1,7 +1,10 @@
 Seesarahcode::Application.routes.draw do
+  resources :posts
+
   get "/portfolio", to: 'home#portfolio', as: 'portfolio'
   get "/resume", to: 'home#resume', as: 'resume'
   get "/about", to: 'home#about', as: 'about'
+  get "/blog", to: 'posts#index', as: 'blog'
   get "home/contact", to: 'home#contact', as: 'contact'
   get "home/recipe", to: 'home#recipe', as: 'recipe'
   get "home/index"
