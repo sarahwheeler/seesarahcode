@@ -1,9 +1,8 @@
-<h1>Listing posts</h1>
+<h1>Blog</h1>
 
 <table>
   <thead>
-    <tr>
-      <th>User</th>
+    <tr>      
       <th>Title</th>
       <th>Content</th>
       <th></th>
@@ -15,7 +14,6 @@
   <tbody>
     <% @posts.each do |post| %>
       <tr>
-        <td><%= post.user_id %></td>
         <td><%= post.title %></td>
         <td><%= post.content %></td>
         <td><%= link_to 'Show', post %></td>
