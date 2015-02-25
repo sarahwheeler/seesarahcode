@@ -1,4 +1,5 @@
 Seesarahcode::Application.routes.draw do
+  devise_for :admins
   resources :posts
 
   get "/portfolio", to: 'home#portfolio', as: 'portfolio'
