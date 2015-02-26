@@ -1,7 +1,5 @@
-Seesarahcode::Application.routes.draw do
-  devise_for :admins
-  resources :posts
-
+  Seesarahcode::Application.routes.draw do
+  
   get "/portfolio", to: 'home#portfolio', as: 'portfolio'
   get "/resume", to: 'home#resume', as: 'resume'
   get "/about", to: 'home#about', as: 'about'
@@ -9,6 +7,9 @@ Seesarahcode::Application.routes.draw do
   get "home/contact", to: 'home#contact', as: 'contact'
   get "home/recipe", to: 'home#recipe', as: 'recipe'
   get "home/index"
+
+  devise_for :admins
+  resources :posts
 
   root "home#recipe"
   # The priority is based upon order of creation: first created -> highest priority.
