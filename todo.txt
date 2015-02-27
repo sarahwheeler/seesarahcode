@@ -1,0 +1,14 @@
+To-Do List: 
+
+- Archives/index for posts; scopes for views
+- Add nify date box (06/Feb/15) besides post title
+- Add pagination to blog post display
+- Create an admin panel
+- Add calendar to Blog page
+- Add footers for views
+- Add Contact Me with mailer
+- Add The Advisor Center to Portfolio
+
+Bugs:
+
+- Fix issue with black background on hovers
