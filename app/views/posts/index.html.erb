@@ -1,11 +1,17 @@
 <h1>Blog</h1>
 
   <div class="col-xs-6 col-md-4">
+    <div class="recent-posts">
+      <h4 class="sidebar-title">Most Recently</h4>
+      <% @posts.order('created_at DESC').limit(5).each do |post| %>
+        <%= link_to post.title, post, class: "recent-title" %>
+      <% end %>
+    </div>
     <div class="calendar">
     </div>
   </div>
   <div class="col-xs-12 col-sm-6 col-md-8">
-    <% @posts.each do |post| %>
+    <% @posts.order('created_at DESC').limit(10).each do |post| %>
       <div class="post">
         <div class="title"><%= link_to post.title, post %></div>
         <div class="created-at"><%= distance_of_time_in_words(post.created_at, Time.now) %> ago</div>

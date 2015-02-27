@@ -198,16 +198,31 @@
 
 	.title {
 		font-family: "Raleway", sans-serif;
-		font-size: 2em;
+		font-size: 2.5em;
 		text-transform: uppercase;
 	}	
 	.created-at {
 		font-family: "Raleway", sans-serif;
+		font-size: 1.3em;
 		text-align: left;
+		margin: 10px 0 40px 0;
 	}
 	.post-content {
 		font-family: "Antic", sans-serif;
+		font-size: 1.5em;
+		line-height: 28px;
 		text-align: justify;
 		width: 80%;
 	}
+	h4.sidebar-title {
+		padding-bottom: 10px;	
+		border-bottom: dotted 1px $pinkJewel;
+		width: 70%;
+	}
+	.recent-title {
+		display: block;
+		margin: 5px 0 5px;
+		text-transform: small-caps;
+	}
+
 
