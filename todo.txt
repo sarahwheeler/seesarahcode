@@ -7,7 +7,7 @@ To-Do List:
 - Add calendar to Blog page
 - Add footers for views
 - Add Contact Me with mailer
-- Add The Advisor Center to Portfolio
+- Finish The Advisor Center to Portfolio
 
 Bugs:
 

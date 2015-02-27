@@ -110,6 +110,7 @@
 	.social-linkedin:hover {
 		margin-right: 12px;
 		display: inline-flex;
+		background-color: white;
 	}
 	.social-github {
 		background: image-url('github-logo-dark.png');
@@ -122,6 +123,7 @@
 	}
 	.social-github:hover {
 		background: image-url('github-logo-blue.png');
+		background-color: white;
 		background-repeat: no-repeat;
 		background-size: 100%;
 		width: 19px;
@@ -129,6 +131,7 @@
 	}
 	.social-twitter {
 		background: image-url('twitter-logo-dark.png');
+		background-color: white;
 		background-repeat: no-repeat;
 		background-size: 100%;
 		width: 18px;
@@ -155,6 +158,7 @@
 	}
 	.social-linkedin:hover {
 		background: image-url('linkedin-logo-blue.png');
+		background-color: white;
 		background-repeat: no-repeat;
 		background-size: 100%;
 		width: 18px;
