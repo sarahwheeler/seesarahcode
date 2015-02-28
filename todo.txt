@@ -1,7 +1,7 @@
 To-Do List: 
 
 - Archives/index for posts; scopes for views
-- Add nify date box (06/Feb/15) besides post title
+- Add nifty date box (06/Feb/15) besides post title
 - Add pagination to blog post display
 - Create an admin panel
 - Add calendar to Blog page
