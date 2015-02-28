@@ -8,6 +8,7 @@
   get "home/recipe", to: 'home#recipe', as: 'recipe'
   get "home/index"
 
+  get "/admin/superpanel", to: 'admin#superpanel', as: 'superpanel'
   devise_for :admins
   resources :posts
 
