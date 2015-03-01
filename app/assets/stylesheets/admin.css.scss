@@ -2,7 +2,62 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+/*   SASS COLOR VARIABLES   */
+
+	$pinkJewel: #CC0066;
+	$redJewel: #990033;
+	$wineJewel: #660033;
+	$purpleJewel: #520052;
+	$darkBlueJewel: #000066;
+	$blueJewel: #006699;
+	$tealJewel: #009999;
+	$emeraldJewel: #009980;
+	$brightBlueJewel: #3284AD;
+
+
 .admin-posts {
 	width: 100%;
-	padding: 0 25px 0 25px;
+	padding: 0 30px 0 30px;
+}
+
+#posts-tbl {
+	border-left: dotted 1px gray;
+	border-right: dotted 1px gray;
+	padding: 10px 10px;
+	width: 80%;
+	margin: 0 auto;
+	tr {
+		height: 45px;
+		
+		
+	}
+	th {
+		padding: 5px 5px;
+
+	}
+	td {
+		padding: 5px 5px;
+		
+		
+	}
+}
+
+tr.posts-tbl-head {
+	border-bottom: dotted 1px $pinkJewel;
+}
+td.posts-tbl-date {
+	width: 100px;
+	font-family: "Raleway", sans-serif;
+}
+td.posts-tbl-title {
+	margin-right: 30px;
+} 
+td a {
+	font-family: "Antic", sans-serif;
+	font-size: 1.25em;
+	color: $blueJewel;
+	text-transform: small-caps;
+}
+td a:hover {
+	color: $emeraldJewel;
 }
