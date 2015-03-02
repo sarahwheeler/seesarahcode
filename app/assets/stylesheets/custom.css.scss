@@ -18,9 +18,12 @@
 	$emeraldJewel: #009980;
 	$brightBlueJewel: #3284AD;
 
-
+a, a:visited {
+	color: $emeraldJewel;
+}
 a:hover {
 	background-color: #fff !important;
+	color: $redJewel;
 }
 
 /* NAVBAR TYPOGRAPHY */

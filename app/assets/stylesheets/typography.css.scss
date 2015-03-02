@@ -17,6 +17,14 @@
 	$brightBlueJewel: #3284AD;
 
 
+a, a:visited {
+	color: $emeraldJewel;
+}
+a:hover {
+	background-color: #fff !important;
+	color: $redJewel;
+}
+
 /*  HEADINGS  */
 	
 	h1, h2, h3, h5, h6 {
@@ -218,6 +226,7 @@
 		padding-bottom: 10px;	
 		border-bottom: dotted 1px $pinkJewel;
 		width: 70%;
+		color: $pinkJewel;
 	}
 	.recent-title {
 		display: block;
