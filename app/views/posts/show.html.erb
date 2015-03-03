@@ -1,19 +1,12 @@
-<p id="notice"><%= notice %></p>
+<div id="show-post">
+	<p id="notice"><%= notice %></p>
 
-<p>
-  <strong>User:</strong>
-  <%= @post.user_id %>
-</p>
+	<p>
+	  <h2><strong>#<%= @post.id %></strong>
+	  <%= @post.title %></h2>
+	</p>
+	<h4><%= @post.created_at.strftime("%B %d %C%y")%> &#8226; <%= @post.created_at.strftime("A %A, at %l:%M %P")%></h4>
+	<br>
+	<p class="show-post-content"><%= @post.content %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @post.title %>
-</p>
-
-<p>
-  <strong>Content:</strong>
-  <%= @post.content %>
-</p>
-
-<%= link_to 'Edit', edit_post_path(@post) %> |
-<%= link_to 'Back', posts_path %>
+</div>
