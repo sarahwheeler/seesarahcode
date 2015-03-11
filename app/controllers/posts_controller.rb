@@ -7,6 +7,7 @@ class PostsController < ApplicationController
   # GET /posts.json
   def index
     @posts = Post.all
+    @tumblr_posts = retrieve_from_tumblr
   end
 
   # GET /posts/1
@@ -27,7 +28,7 @@ class PostsController < ApplicationController
   # POST /posts.json
   def create
     @post = Post.new(post_params)
-    retrieve_from_tumblr
+    
     respond_to do |format|
       if @post.save
         format.html { redirect_to @post, notice: 'Post was successfully created.' }
@@ -78,6 +79,6 @@ class PostsController < ApplicationController
       # define keys and secrets here
       client = Tumblr::Client.new(:consumer_key => @key, :consumer_secret => @secret,
                   :oauth_token => @oauth_token, :oauth_token_secret => @oauth_token_secret)
-      client.posts('seesarahcode.tumblr.com')
+      return client.posts('seesarahcode.tumblr.com')
     end
 end
