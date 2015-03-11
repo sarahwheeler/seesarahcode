@@ -46,6 +46,10 @@ GEM
       warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.0.2)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.9.1)
+      faraday (>= 0.7.4, < 0.10)
     hike (1.2.3)
     i18n (0.6.9)
     jbuilder (1.5.3)
@@ -64,6 +68,8 @@ GEM
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.10.1)
+    multipart-post (2.0.0)
+    oauth (0.4.7)
     orm_adapter (0.5.0)
     polyglot (0.3.4)
     rack (1.5.2)
@@ -96,6 +102,7 @@ GEM
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
+    simple_oauth (0.3.1)
     sprockets (2.11.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -112,6 +119,13 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
+    tumblr_client (0.8.5)
+      faraday (~> 0.9.0)
+      faraday_middleware (~> 0.9.0)
+      json
+      mime-types
+      oauth
+      simple_oauth
     turbolinks (2.2.2)
       coffee-rails
     tzinfo (0.3.39)
@@ -135,5 +149,6 @@ DEPENDENCIES
   sass-rails (~> 4.0.2)
   sdoc
   sqlite3
+  tumblr_client
   turbolinks
   uglifier (>= 1.3.0)
