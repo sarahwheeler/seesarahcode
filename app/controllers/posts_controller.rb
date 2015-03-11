@@ -27,7 +27,7 @@ class PostsController < ApplicationController
   # POST /posts.json
   def create
     @post = Post.new(post_params)
-
+    retrieve_from_tumblr
     respond_to do |format|
       if @post.save
         format.html { redirect_to @post, notice: 'Post was successfully created.' }
@@ -72,5 +72,12 @@ class PostsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def post_params
       params.require(:post).permit(:user_id, :title, :content)
+    end
+
+    def retrieve_from_tumblr
+      # define keys and secrets here
+      client = Tumblr::Client.new(:consumer_key => @key, :consumer_secret => @secret,
+                  :oauth_token => @oauth_token, :oauth_token_secret => @oauth_token_secret)
+      client.posts('seesarahcode.tumblr.com')
     end
 end
