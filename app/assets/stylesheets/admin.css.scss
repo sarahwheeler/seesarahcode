@@ -61,3 +61,16 @@ td a {
 td a:hover {
 	color: $emeraldJewel;
 }
+
+.create-post-btn {
+	width: 50%;
+	height: 200px;
+	font-size: 4em;
+	color: #6fdc6f;
+	border: solid 1px #6fdc6f;
+	background-color: white;
+	border-radius: 15px;
+	:hover {
+		background-color: #d6f5d6;
+	}
+}
