@@ -43,11 +43,4 @@ $(document).ready(function() {
 		$('.cultivate-vid').slideToggle("slow");
 	});
 
-	// Treehouse and CodeSchool Report Card on Resume page
-	$('.report-card.treehouse').reportCard({
-    userName: 'sarahwheeler',
-    site: 'treehouse',
-    badgesAmount: 8
-	});
-
 });
