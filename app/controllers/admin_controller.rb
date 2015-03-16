@@ -3,6 +3,7 @@ class AdminController < ApplicationController
 
 	def superpanel
 		 @posts = Post.all
+		 @courses = Course.all
 	end
 
 
