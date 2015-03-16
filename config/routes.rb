@@ -1,5 +1,7 @@
   Seesarahcode::Application.routes.draw do
   
+  resources :courses
+
   get "/portfolio", to: 'home#portfolio', as: 'portfolio'
   get "/resume", to: 'home#resume', as: 'resume'
   get "/about", to: 'home#about', as: 'about'
