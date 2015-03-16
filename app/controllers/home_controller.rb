@@ -3,6 +3,7 @@ class HomeController < ApplicationController
   end
 
   def resume
+    @courses = Course.all
   end
 
   def about

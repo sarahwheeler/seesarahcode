@@ -1,11 +1,3 @@
-<script>
-		$('.report-card.treehouse').reportCard({
-    userName: 'sarahwheeler',
-    site: 'treehouse',
-    badgesAmount: 8
-	});
-</script>
-
 <h1>Resume</h1>
 <br><br>	
 
@@ -15,10 +7,17 @@
  		<p>Certificate in Ruby Programming</p>
  		<p>University of Washington Professional and Continuing Education</p>
  		<p>Awarded September 2014</p>
- 		
+
  		<h4>Online Learning</h4>
 
- 		<div class="report-card treehouse"></div>
+		<%= link_to "Treehouse", "http://teamtreehouse.com" %>
+ 		<%= render :partial => "courses/treehouse" %> 
+ 		<%= link_to "View all →", courses_path %>
+ 		<br>
+ 		<%= link_to "CodeSchool", "http://codeschool.com" %>
+ 		<%= render :partial => "courses/codeschool" %>
+
+
 
  		<h4>Books Recently Read</h4>
  </div>
