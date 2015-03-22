@@ -1,15 +1,9 @@
 class AdminController < ApplicationController
-	before_action :authenticate_admin!, only: [:new, :create, :edit, :destroy]
+	before_action :authenticate_admin!, only: [:superpanel]
 
 	def superpanel
 		 @posts = Post.all
 		 @courses = Course.all
 	end
-
-
-	private
-		def set_admin
-      @admin = Admin.find(params[:id])
-    end 
 
 end
