@@ -7,6 +7,7 @@
 	$darkblueJewel: #000066;
 	$blueJewel: #006699;
 	$tealJewel: #009999;
+	$brightBlueJewel: #3284AD;
 
 
 hr.minibar {
@@ -41,10 +42,17 @@ hr.minibar {
 }
 
 .online-box {
-	border-radius: 3px;
+	border-radius: 8px;
 	background-color: white;
-	border: solid 1px $purpleJewel;
-	padding: 10px 15px;
-	margin: 25px 25px;
+	border: solid 1px lightblue;
+	padding: 10px 25px;
+	margin: 10px 0 25px 20%;
 	width: 80%;
 }
+
+hr.sidebar-hr {
+	width: 90%;
+	height: 1px;
+	background: $tealJewel !important;
+}
+
