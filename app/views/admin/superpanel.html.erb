@@ -34,7 +34,9 @@
 	</div>
 	<div class="col-xs-6">
 		<div class="new-post-btn">
-			<button class="create-post-btn">+</button>
+			<%= link_to new_post_path do %>
+				<button class="create-post-btn">+</button>
+				<% end %>
 		</div>
 		<br>
 		<div class="coursework">
