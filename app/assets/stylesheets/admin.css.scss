@@ -61,16 +61,26 @@ td a {
 td a:hover {
 	color: $emeraldJewel;
 }
-
+.new-course {
+	margin-left: 14%;
+	padding: 3px 13px 4px 10px;
+	border: solid 1px $emeraldJewel;
+	border-radius: 5px;
+	font-size: 0.65em;
+}
 .create-post-btn {
 	width: 50%;
-	height: 200px;
+	height: 75px;
 	font-size: 4em;
-	color: #6fdc6f;
-	border: solid 1px #6fdc6f;
+	color: #73b65f;
+	border: solid 1px #73b65f;
 	background-color: white;
 	border-radius: 15px;
-	:hover {
+}
+.create-post-btn:hover {
+		color: darkgreen;
 		background-color: #d6f5d6;
-	}
+}
+#coursework-tbl {
+	width: 62%;
 }

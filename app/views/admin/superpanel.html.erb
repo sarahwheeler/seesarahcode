@@ -5,7 +5,7 @@
 		<div class="admin-posts">
 			<table id="posts-tbl">
 				<tr>
-					<td colspan="4"><h4>Posts</h4></td>
+					<td colspan="4"><h3>Posts</h3></td>
 				</tr>
 				<tr class="posts-tbl-head">
 					<th>Post Name/ID</th>
@@ -38,11 +38,15 @@
 				<button class="create-post-btn">+</button>
 				<% end %>
 		</div>
-		<br>
+		<br><br><br>
 		<div class="coursework">
-			<h4>Manage Coursework</h4>
-			<%= link_to "Add a new course", new_course_path %>
+			<h4>Manage Coursework <%= link_to "+ Add a new course", new_course_path, class: "new-course" %></h4>
+			<br>
 			<table id="coursework-tbl">
+				<tr>
+					<th>Course Name</th>
+					<th>Site</th>
+				</tr>
 				<% @courses.each do |course| %>
 					<tr>
 						<td><%= course.name %></td>
