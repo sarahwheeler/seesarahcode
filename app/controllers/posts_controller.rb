@@ -6,8 +6,8 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
-    @posts = Post.all
-    @tumblr_posts = retrieve_from_tumblr
+    @posts = Post.order('created_at DESC').paginate(:page => params[:page], :per_page => 5)
+    #@tumblr_posts = retrieve_from_tumblr
   end
 
   # GET /posts/1
