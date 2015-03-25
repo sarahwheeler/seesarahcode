@@ -1,0 +1,6 @@
+<h1>Archives</h1>
+<div id="archive-container">
+	<% @posts.each do |post| %>
+		<%= link_to "#{post.title}", post_path(post) %><br>
+	<% end %>
+</div>

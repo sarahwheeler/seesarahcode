@@ -10,6 +10,10 @@ class PostsController < ApplicationController
     #@tumblr_posts = retrieve_from_tumblr
   end
 
+  def archives
+    @posts = Post.order('created_at DESC')
+  end
+
   # GET /posts/1
   # GET /posts/1.json
   def show
