@@ -20,7 +20,7 @@
 	padding: 0 30px 0 30px;
 }
 
-#posts-tbl {
+#posts-tbl, #drafts-tbl {
 	border-left: dotted 1px gray;
 	border-right: dotted 1px gray;
 	padding: 10px 10px;
@@ -69,13 +69,14 @@ td a:hover {
 	font-size: 0.65em;
 }
 .create-post-btn {
-	width: 50%;
+	width: 25%;
 	height: 75px;
 	font-size: 4em;
-	color: #73b65f;
-	border: solid 1px #73b65f;
+	color: #b4f0b2;
+	border: solid 1px #b4f0b2;
 	background-color: white;
 	border-radius: 15px;
+	margin-left: 26%;
 }
 .create-post-btn:hover {
 		color: darkgreen;
