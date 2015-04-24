@@ -7,7 +7,6 @@ class PostsController < ApplicationController
   # GET /posts.json
   def index
     @posts = Post.where(is_published: true).order('created_at DESC').paginate(:page => params[:page], :per_page => 5)
-    #@tumblr_posts = retrieve_from_tumblr
   end
 
   def archives
@@ -81,12 +80,5 @@ class PostsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def post_params
       params.require(:post).permit(:user_id, :title, :content, :is_published)
-    end
-
-    def retrieve_from_tumblr
-      # define keys and secrets here
-      client = Tumblr::Client.new(:consumer_key => @key, :consumer_secret => @secret,
-                  :oauth_token => @oauth_token, :oauth_token_secret => @oauth_token_secret)
-      return client.posts('seesarahcode.tumblr.com')
     end
 end
