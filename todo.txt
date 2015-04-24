@@ -7,9 +7,10 @@ To-Do List:
 - Add Contact Me with mailer
 
 
-Bugs:
+Done:
 
 - Fix issue with black background on hovers
 - Finish The Advisor Center in Portfolio
 - Create an admin panel
 - Add pagination to blog post display
+- Import Tumblr posts
