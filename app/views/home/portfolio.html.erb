@@ -6,14 +6,15 @@
 		<div class="col-xs-1"></div>
 		<div class="col-xs-4">
 			<!-- Project Images to Go Here-->
-			<%= image_tag 'tac_screens.png', class: 'img-portfolio', alt: "The Advisor Center website screenshots", size: "470x426" %>
+			<%= link_to 'http://theadvisorcenter.com', target: "_blank", alt: "Visit The Advisor Center in a new window" do %>
+				<%= image_tag 'tac_screens.png', class: 'img-portfolio', size: "400x370" %>
+			<% end %>
 		</div>
 		<div class="col-xs-1"></div>
 		<div class="col-xs-5">
-			<div class="project-title">The Advisor Center</div>
-			<div class="icon-belt">
-				<%= link_to "The Advisor Center", "http://github.com/sarahwheeler/seesarahcode", class: "row-link" %>
-			</div>
+			<%= link_to	"The Advisor Center", "http://theadvisorcenter.com/", target: "_blank", class: "project-title row-link" %>
+			<%= link_to "http://theadvisorcenter.com/", class: "row-link", target: "_blank", alt: "Visit The Advisor Center in a new window" do %><span class="glyphicon glyphicon-new-window heroku-btn" aria-hidden="true"></span><% end %>
+			<br />
 			<h4>Written in:</h4> 
 				<p class="language">Ruby on Rails, JavaScript</p>
 			<h4>Gems and Libraries:</h4>
@@ -31,7 +32,7 @@
 		<div class="col-xs-1"></div>
 		<div class="col-xs-4">
 			<!-- Project Images to Go Here-->
-			<%= image_tag 'riverpen_screen.png', class: 'img-portfolio', alt: "Cultivate website screenshots", size: "475x267" %>
+			<%= image_tag 'riverpen_screen.png', class: 'img-portfolio', alt: "Cultivate website screenshots", size: "420x267" %>
 		</div>
 		<div class="col-xs-1"></div>
 		<div class="col-xs-5">
