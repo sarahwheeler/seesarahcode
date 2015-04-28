@@ -10,8 +10,8 @@ $.ajax({
   $('#treehouse-pts').text(commaSeparatedNumber(points));
   $('#treehouse-bdgs').text(data.badges.length);
   var badges = badgeGrabber(data) // returns icon_urls
-  badgeImageInsert(badges); //insert badge images
-  badgeAltInsert(badges); //insert badge alt text
+  console.log("BADGEGRABBER RETURNS:" + badges);
+  badgeInserts(badges); //insert badge images & alt text
   // send data to language bubble chart
 });
 
@@ -29,16 +29,34 @@ function badgeGrabber(profile) {
     b = new Date(b.earned_date);
     return a>b ? -1 : a<b ? 1 : 0;
 	}).slice(0,5);
+	console.log(lastFive);
 	lastFive.forEach(function(badge) {
-		 icon_urls << [badge.name, badge.icon_url]
+		 icon_urls.push([badge.name, badge.icon_url]);
 	});
+	console.log(icon_urls);
 	return icon_urls;
 }
 
-function badgeImageInsert(badges) {
-
-}
-
-function badgeAltInsert(badges) {
-
+function badgeInserts(badges) {
+	badges.forEach(function(badge) {
+		switch (badges.indexOf(badge)) {
+			case 0:
+				$('#badge1').html("<img src='" + badge[1] + "' title='" + badge[0] + "' class='th-badge-icon'>");
+				break;
+			case 1: 
+				$('#badge2').html("<img src='" + badge[1] + "' title='" + badge[0] + "' class='th-badge-icon'>");
+				break;
+			case 2: 
+				$('#badge3').html("<img src='" + badge[1] + "' title='" + badge[0] + "' class='th-badge-icon'>");
+				break;
+			case 3: 
+				$('#badge4').html("<img src='" + badge[1] + "' title='" + badge[0] + "' class='th-badge-icon'>");
+				break;
+			case 4: 
+				$('#badge5').html("<img src='" + badge[1] + "' title='" + badge[0] + "' class='th-badge-icon'>");
+				break;
+			default: 
+				return ""
+		}
+	});
 }
