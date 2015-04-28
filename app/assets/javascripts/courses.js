@@ -60,3 +60,15 @@ function badgeInserts(badges) {
 		}
 	});
 }
+
+$.ajax({
+	type:  'GET',
+	url: 'http://www.codeschool.com/users/272796.json',
+	data: {
+		format: 'json'
+	}
+}).success(function(data) {
+	var points = data["user"]["total_score"];
+  console.log(points);
+  $('#codeschool-pts').text(commaSeparatedNumber(points));
+});

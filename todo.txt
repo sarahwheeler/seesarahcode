@@ -5,7 +5,7 @@ To-Do List:
 - Add calendar to Blog page
 - Add footers for views
 - Add Contact Me with mailer
-- Build Treehouse badge fetcher through JSON
+- Build CodeSchool badge fetcher through JSON
 
 
 Done:
@@ -15,3 +15,4 @@ Done:
 - Create an admin panel
 - Add pagination to blog post display
 - Import Tumblr posts
+- Build Treehouse badge fetcher through JSON
