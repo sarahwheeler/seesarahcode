@@ -1,5 +1,6 @@
-  Seesarahcode::Application.routes.draw do
-  
+Seesarahcode::Application.routes.draw do
+  root "home#recipe"
+
   resources :courses
 
   get "/portfolio", to: 'home#portfolio', as: 'portfolio'
@@ -11,11 +12,15 @@
   get "home/recipe", to: 'home#recipe', as: 'recipe'
   get "home/index"
 
+  get 'courses/code_school', to: 'courses#code_school'
+
   get "/admin/superpanel", to: 'admin#superpanel', as: 'superpanel'
   devise_for :admins
   resources :posts
 
-  root "home#recipe"
+  match '*any' => 'application#options', :via => [:options]
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
