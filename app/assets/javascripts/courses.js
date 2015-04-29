@@ -44,7 +44,7 @@ function badgeInserts(badges) {
 
 $.ajax({
 	type:  'GET',
-	url: codeschool_json_path,
+	url: 'courses/code_school',
 	data: {
 		format: 'json'
 	}
@@ -52,4 +52,29 @@ $.ajax({
 	var points = data["user"]["total_score"];
   console.log("POINTS:" + points);
   $('#codeschool-pts').text(commaSeparatedNumber(points));
+  var badge_total = data["badges"].length;
+  $('#codeschool-bdgs').text(badge_total);
+  var badges = csBadgeGrabber(data) // returns icon_urls
+  csBadgeInserts(badges); //insert badge images & alt text
 });
+
+function csBadgeGrabber(profile) {
+  var icon_urls = [] // array [,] within array
+  var randomBadges = shuffle(profile.badges).slice(0,5);
+  randomBadges.forEach(function(badge) {
+     icon_urls.push([badge.name, badge.badge, badge.course_url]);
+  });
+  return icon_urls;
+}
+
+function csBadgeInserts(badges) {
+  badges.forEach(function(badge) {
+    var n = badges.indexOf(badge) + 1;
+    $('#cs-badge' + n).html("<a href='" + badge[2] + "' target='_blank'><img src='" + badge[1] + "' title='" + badge[0] + "' class='th-badge-icon'></a>");
+  });
+}
+
+function shuffle(o){
+    for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+    return o;
+};

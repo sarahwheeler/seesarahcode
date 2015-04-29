@@ -1,5 +1,9 @@
 class CoursesController < ApplicationController
 
+  def code_school
+    @profile = File.read("././lib/assets/codeschool_272796.json")
+    render :json => @profile
+  end
 
 	def index 
 		@courses = Course.all
@@ -24,6 +28,11 @@ class CoursesController < ApplicationController
 
 	def edit
 	end
+
+  def show
+    @profile = File.read("././lib/assets/codeschool_272796.json")
+    render :json => @profile
+  end
 
 	def update
 		respond_to do |format|

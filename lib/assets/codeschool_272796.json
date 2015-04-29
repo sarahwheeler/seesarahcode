@@ -1,0 +1,276 @@
+{
+  "user":{
+    "username":"sarahcwheeler",
+    "member_since":"2013-03-05T05:24:10Z",
+    "total_score":78250,
+    "avatar":"http://gravatar.com/avatar/2b761a5bf7415a654caf8b3b0213f2d0.jpg?s=80\u0026r=pg"
+  },
+  "courses":{
+    "completed":[
+      {
+        "title":"Warming Up With Ember.js",
+        "url":"http://www.codeschool.com/courses/warming-up-with-ember-js",
+        "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/327/completed-warming-up-with-ember-js-6e0d6fb016e2971c73e3dcc41b35e9c7.png"
+      },
+      {
+        "title":"Rails for Zombies Redux",
+        "url":"http://www.codeschool.com/courses/rails-for-zombies-redux",
+        "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/133/completed-rails-for-zombies-redux-0f73c361c3d5070ca2fa7951e65cbf39.png"
+      },
+      {
+        "title":"CSS Cross-Country",
+        "url":"http://www.codeschool.com/courses/css-cross-country",
+        "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/40/completed-css-cross-country-ec9a9aa14797031680577e7a986bef75.png"
+      },
+      {
+        "title":"Ruby Bits",
+        "url":"http://www.codeschool.com/courses/ruby-bits",
+        "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/139/completed-ruby-bits-c1546701600d257c159fcd24de279ea0.png"
+      },
+      {
+        "title":"Functional HTML5 \u0026 CSS3",
+        "url":"http://www.codeschool.com/courses/functional-html5-css3",
+        "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/4/completed-functional-html5-css3-f88add668640fd2b172fc2ff418c1cf3.png"
+      },
+      {
+        "title":"Try Git",
+        "url":"http://www.codeschool.com/courses/try-git",
+        "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/121/completed-try-git-b54d1cd9fa940e4a3c1925056d38eca2.png"
+      },
+      {
+        "title":"Try Ruby",
+        "url":"http://www.codeschool.com/courses/try-ruby",
+        "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/24/completed-try-ruby-220eaa3eedcaf47135a02158592095cb.png"
+      }
+    ],
+    "in_progress":[
+      {
+        "title":"JavaScript Road Trip Part 1",
+        "url":"http://www.codeschool.com/courses/javascript-road-trip-part-1",
+        "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/296/completed-javascript-road-trip-part-1-b9f5af5196fb596271f7f97b6b477d24.png"
+      }
+    ]
+  },
+  "badges":[
+    {
+      "name":"Completed CSS Cross-Country",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/40/completed-css-cross-country-ec9a9aa14797031680577e7a986bef75.png",
+      "course_url":"http://www.codeschool.com/courses/css-cross-country"
+    },
+    {
+      "name":"Completed Functional HTML5 \u0026 CSS3",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/4/completed-functional-html5-css3-f88add668640fd2b172fc2ff418c1cf3.png",
+      "course_url":"http://www.codeschool.com/courses/functional-html5-css3"
+    },
+    {
+      "name":"Level 1 on Rails for Zombies 2",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/26/level-1-on-rails-for-zombies-2-cfb6d7850ec88fa3917d650740003eb8.png",
+      "course_url":"http://www.codeschool.com/courses/rails-for-zombies-2"
+    },
+    {
+      "name":"Level 1 on Rails for Zombies Redux",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/134/level-1-on-rails-for-zombies-redux-2ba020b1379910903e2f8724a8199404.png",
+      "course_url":"http://www.codeschool.com/courses/rails-for-zombies-redux"
+    },
+    {
+      "name":"Level 1 on Warming Up With Ember.js",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/328/level-1-on-warming-up-with-ember-js-ea15dee44473a7f94b5f27a256229345.png",
+      "course_url":"http://www.codeschool.com/courses/warming-up-with-ember-js"
+    },
+    {
+      "name":"Level 1 on Try Ruby",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/463/level-1-on-try-ruby-8f8cc28e53daef6fe36a6b8b94bbef47.png",
+      "course_url":"http://www.codeschool.com/courses/try-ruby"
+    },
+    {
+      "name":"Level 1 on Ruby Bits",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/140/level-1-on-ruby-bits-fd61bce30b5dc59e032d0e90900b34a4.png",
+      "course_url":"http://www.codeschool.com/courses/ruby-bits"
+    },
+    {
+      "name":"Level 1 on Functional HTML5 \u0026 CSS3",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/20/level-1-on-functional-html5-css3-0f8ac508eb82a75be3e52ee4e7740694.png",
+      "course_url":"http://www.codeschool.com/courses/functional-html5-css3"
+    },
+    {
+      "name":"Level 1 on CSS Cross-Country",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/41/level-1-on-css-cross-country-96fb99da28e17edb7da62911777bf1d3.png",
+      "course_url":"http://www.codeschool.com/courses/css-cross-country"
+    },
+    {
+      "name":"Level 2 on Ruby Bits",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/141/level-2-on-ruby-bits-ba354c2a53af2386b385fc6566f3adf0.png",
+      "course_url":"http://www.codeschool.com/courses/ruby-bits"
+    },
+    {
+      "name":"Level 2 on Rails for Zombies 2",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/27/level-2-on-rails-for-zombies-2-296b00028b4e97a1beb4917bff1bc1dd.png",
+      "course_url":"http://www.codeschool.com/courses/rails-for-zombies-2"
+    },
+    {
+      "name":"Level 2 on Rails for Zombies Redux",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/135/level-2-on-rails-for-zombies-redux-84161b6c606aa55fc878380c3680b572.png",
+      "course_url":"http://www.codeschool.com/courses/rails-for-zombies-redux"
+    },
+    {
+      "name":"Level 2 on Functional HTML5 \u0026 CSS3",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/21/level-2-on-functional-html5-css3-05c6bb17a0d8c17b57c21c982fc80f5f.png",
+      "course_url":"http://www.codeschool.com/courses/functional-html5-css3"
+    },
+    {
+      "name":"Level 2 on Warming Up With Ember.js",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/329/level-2-on-warming-up-with-ember-js-c2884a490f07377976767507aaa9a372.png",
+      "course_url":"http://www.codeschool.com/courses/warming-up-with-ember-js"
+    },
+    {
+      "name":"Level 2 on CSS Cross-Country",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/42/level-2-on-css-cross-country-43b9d83055fa06b607cb0cf1215a0e70.png",
+      "course_url":"http://www.codeschool.com/courses/css-cross-country"
+    },
+    {
+      "name":"Level 2 on Try Ruby",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/464/level-2-on-try-ruby-bf5966ddc34f9845341e38c5c3fe3986.png",
+      "course_url":"http://www.codeschool.com/courses/try-ruby"
+    },
+    {
+      "name":"Level 3 on Try Ruby",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/465/level-3-on-try-ruby-8ca933ada1d70b7475054e647126d5ae.png",
+      "course_url":"http://www.codeschool.com/courses/try-ruby"
+    },
+    {
+      "name":"Level 3 on CSS Cross-Country",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/43/level-3-on-css-cross-country-2b35c588ea146a297f629d5cf733ff90.png",
+      "course_url":"http://www.codeschool.com/courses/css-cross-country"
+    },
+    {
+      "name":"Level 3 on Rails for Zombies 2",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/28/level-3-on-rails-for-zombies-2-0eaaf0109f83459c5aedef30bdf8bd96.png",
+      "course_url":"http://www.codeschool.com/courses/rails-for-zombies-2"
+    },
+    {
+      "name":"Level 3 on Ruby Bits",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/142/level-3-on-ruby-bits-910c9745d4b169bb7b5e396e8689dbba.png",
+      "course_url":"http://www.codeschool.com/courses/ruby-bits"
+    },
+    {
+      "name":"Level 3 on Functional HTML5 \u0026 CSS3",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/22/level-3-on-functional-html5-css3-514549f8e7eafdf90ff59125e3076be9.png",
+      "course_url":"http://www.codeschool.com/courses/functional-html5-css3"
+    },
+    {
+      "name":"Level 3 on Rails for Zombies Redux",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/136/level-3-on-rails-for-zombies-redux-f3ccde89280aa8d6a325e97390fabcd0.png",
+      "course_url":"http://www.codeschool.com/courses/rails-for-zombies-redux"
+    },
+    {
+      "name":"Level 3 on Warming Up With Ember.js",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/330/level-3-on-warming-up-with-ember-js-c2027286a567c9e604a5eb1c499707ca.png",
+      "course_url":"http://www.codeschool.com/courses/warming-up-with-ember-js"
+    },
+    {
+      "name":"Level 4 on Rails for Zombies 2",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/29/level-4-on-rails-for-zombies-2-749b621e3b1d4545acdf0af0b48eb095.png",
+      "course_url":"http://www.codeschool.com/courses/rails-for-zombies-2"
+    },
+    {
+      "name":"Level 4 on Warming Up With Ember.js",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/331/level-4-on-warming-up-with-ember-js-1bca07cd779e392b895a59a1ab1a3874.png",
+      "course_url":"http://www.codeschool.com/courses/warming-up-with-ember-js"
+    },
+    {
+      "name":"Level 4 on Functional HTML5 \u0026 CSS3",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/23/level-4-on-functional-html5-css3-dc14c1ffd85a039cb25853ecaec8381c.png",
+      "course_url":"http://www.codeschool.com/courses/functional-html5-css3"
+    },
+    {
+      "name":"Level 4 on Ruby Bits",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/143/level-4-on-ruby-bits-315cbf596b37208439b14aef9ebab141.png",
+      "course_url":"http://www.codeschool.com/courses/ruby-bits"
+    },
+    {
+      "name":"Level 4 on CSS Cross-Country",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/44/level-4-on-css-cross-country-812c700bf5d3aa4abce2eeb1187081bb.png",
+      "course_url":"http://www.codeschool.com/courses/css-cross-country"
+    },
+    {
+      "name":"Level 4 on Try Ruby",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/466/level-4-on-try-ruby-5995aa3d90b4dfb9faae1eb1c4ba8868.png",
+      "course_url":"http://www.codeschool.com/courses/try-ruby"
+    },
+    {
+      "name":"Level 4 on Rails for Zombies Redux",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/137/level-4-on-rails-for-zombies-redux-60c9d341a1b0853a359ce6d19275df03.png",
+      "course_url":"http://www.codeschool.com/courses/rails-for-zombies-redux"
+    },
+    {
+      "name":"Level 5 on Warming Up With Ember.js",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/332/level-5-on-warming-up-with-ember-js-7add9db3ef5afaeccb159fdc1a751f59.png",
+      "course_url":"http://www.codeschool.com/courses/warming-up-with-ember-js"
+    },
+    {
+      "name":"Level 5 on CSS Cross-Country",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/45/level-5-on-css-cross-country-b7ef43220bbf0447349b8fb10fb71f34.png",
+      "course_url":"http://www.codeschool.com/courses/css-cross-country"
+    },
+    {
+      "name":"Level 5 on Try Ruby",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/467/level-5-on-try-ruby-333c6e45375f4851ff31be67e27522c8.png",
+      "course_url":"http://www.codeschool.com/courses/try-ruby"
+    },
+    {
+      "name":"Level 5 on Ruby Bits",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/144/level-5-on-ruby-bits-c34bd38932a6ea849561727a668b1ff4.png",
+      "course_url":"http://www.codeschool.com/courses/ruby-bits"
+    },
+    {
+      "name":"Level 6 on Warming Up With Ember.js",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/333/level-6-on-warming-up-with-ember-js-8cc0e6961925687bfca6498bd1efd5da.png",
+      "course_url":"http://www.codeschool.com/courses/warming-up-with-ember-js"
+    },
+    {
+      "name":"Level 6 on CSS Cross-Country",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/46/level-6-on-css-cross-country-f6a27acffa789bf7725fc9f046fc4254.png",
+      "course_url":"http://www.codeschool.com/courses/css-cross-country"
+    },
+    {
+      "name":"Level 6 on Try Ruby",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/468/level-6-on-try-ruby-27d94753bf1d50003f5d9ee6fa3aff7a.png",
+      "course_url":"http://www.codeschool.com/courses/try-ruby"
+    },
+    {
+      "name":"Level 7 on Warming Up With Ember.js",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/334/level-7-on-warming-up-with-ember-js-8c3b7f06fd17fb640b157da802475c36.png",
+      "course_url":"http://www.codeschool.com/courses/warming-up-with-ember-js"
+    },
+    {
+      "name":"Level 7 on CSS Cross-Country",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/47/level-7-on-css-cross-country-5a39ca2a094961f9c82b71f7ddbccbfb.png",
+      "course_url":"http://www.codeschool.com/courses/css-cross-country"
+    },
+    {
+      "name":"Completed Try Ruby",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/24/completed-try-ruby-220eaa3eedcaf47135a02158592095cb.png",
+      "course_url":"http://www.codeschool.com/courses/try-ruby"
+    },
+    {
+      "name":"Completed Try Git",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/121/completed-try-git-b54d1cd9fa940e4a3c1925056d38eca2.png",
+      "course_url":"http://www.codeschool.com/courses/try-git"
+    },
+    {
+      "name":"Completed Rails for Zombies Redux",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/133/completed-rails-for-zombies-redux-0f73c361c3d5070ca2fa7951e65cbf39.png",
+      "course_url":"http://www.codeschool.com/courses/rails-for-zombies-redux"
+    },
+    {
+      "name":"Completed Ruby Bits",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/139/completed-ruby-bits-c1546701600d257c159fcd24de279ea0.png",
+      "course_url":"http://www.codeschool.com/courses/ruby-bits"
+    },
+    {
+      "name":"Completed Warming Up With Ember.js",
+      "badge":"https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/327/completed-warming-up-with-ember-js-6e0d6fb016e2971c73e3dcc41b35e9c7.png",
+      "course_url":"http://www.codeschool.com/courses/warming-up-with-ember-js"
+    }
+  ]
+}
