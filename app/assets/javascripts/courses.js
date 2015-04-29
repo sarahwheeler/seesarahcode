@@ -1,3 +1,5 @@
+
+
 $.ajax({
   type: 'GET',
   url: 'http://teamtreehouse.com/sarahwheeler.json',
@@ -6,11 +8,9 @@ $.ajax({
   }
 }).success(function(data) {
   var points = data["points"]["total"];
-  console.log(points);
   $('#treehouse-pts').text(commaSeparatedNumber(points));
   $('#treehouse-bdgs').text(data.badges.length);
   var badges = badgeGrabber(data) // returns icon_urls
-  console.log("BADGEGRABBER RETURNS:" + badges);
   badgeInserts(badges); //insert badge images & alt text
   // send data to language bubble chart
 });
@@ -24,51 +24,32 @@ function commaSeparatedNumber(val){
 
 function badgeGrabber(profile) {
 	var icon_urls = [] // array [,] within array
-	var lastFive = profile.badges.sort(function(a, b) {
+	var recentCourses = profile.badges.sort(function(a, b) {
     a = new Date(a.earned_date);
     b = new Date(b.earned_date);
     return a>b ? -1 : a<b ? 1 : 0;
 	}).slice(0,5);
-	console.log(lastFive);
-	lastFive.forEach(function(badge) {
-		 icon_urls.push([badge.name, badge.icon_url]);
+	recentCourses.forEach(function(badge) {
+		 icon_urls.push([badge.name, badge.icon_url, badge.url]);
 	});
-	console.log(icon_urls);
 	return icon_urls;
 }
 
 function badgeInserts(badges) {
 	badges.forEach(function(badge) {
-		switch (badges.indexOf(badge)) {
-			case 0:
-				$('#badge1').html("<img src='" + badge[1] + "' title='" + badge[0] + "' class='th-badge-icon'>");
-				break;
-			case 1: 
-				$('#badge2').html("<img src='" + badge[1] + "' title='" + badge[0] + "' class='th-badge-icon'>");
-				break;
-			case 2: 
-				$('#badge3').html("<img src='" + badge[1] + "' title='" + badge[0] + "' class='th-badge-icon'>");
-				break;
-			case 3: 
-				$('#badge4').html("<img src='" + badge[1] + "' title='" + badge[0] + "' class='th-badge-icon'>");
-				break;
-			case 4: 
-				$('#badge5').html("<img src='" + badge[1] + "' title='" + badge[0] + "' class='th-badge-icon'>");
-				break;
-			default: 
-				return ""
-		}
+		var n = badges.indexOf(badge) + 1;
+		$('#badge' + n).html("<a href='" + badge[2] + "' target='_blank'><img src='" + badge[1] + "' title='" + badge[0] + "' class='th-badge-icon'></a>");
 	});
 }
 
 $.ajax({
 	type:  'GET',
-	url: 'http://www.codeschool.com/users/272796.json',
+	url: codeschool_json_path,
 	data: {
 		format: 'json'
 	}
 }).success(function(data) {
 	var points = data["user"]["total_score"];
-  console.log(points);
+  console.log("POINTS:" + points);
   $('#codeschool-pts').text(commaSeparatedNumber(points));
 });

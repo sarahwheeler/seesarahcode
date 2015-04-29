@@ -49,11 +49,16 @@ hr.minibar {
 	margin: 10px 0 25px 20%;
 	width: 80%;
 }
+.degrees {
+	margin-left: 5%;
+}
 
 hr.sidebar-hr {
 	width: 90%;
 	height: 1px;
 	background: $tealJewel !important;
+	margin-top: -25px;
+	margin-bottom: 25px;
 }
 
 /*  BADGES  */
