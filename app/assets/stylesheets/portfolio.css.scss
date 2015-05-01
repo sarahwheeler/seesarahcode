@@ -83,7 +83,7 @@ a:hover .heroku-btn {
 	margin: 0 40%;
 	margin-top: 35px;
 }
-.circle {
+.circle, .bk-circle {
 	border-radius: 50%;
 	width: 20px;
 	height: 20px;
@@ -93,7 +93,7 @@ a:hover .heroku-btn {
 	filter: alpha(opacity=75); /* For IE8 and earlier */
 	cursor: pointer;
 }
-.circle:hover {
+.circle:hover, .bk-circle:hover {
 	opacity: 0.5;
 	filter: alpha(opacity=50); /* For IE8 and earlier */
 }
