@@ -1,2 +1,18 @@
-<h1>Home#contact</h1>
-<p>Find me in app/views/home/contact.html.erb</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Empress Sarah,</h1>
+    <p>
+      Your majesty, the people are in need of your input. At <%= @message.created_at %>, we received the following message from the Royal Scribe:<br>
+      <%= @sender.name %>
+    </p>
+    <p>
+      <%= @message %>
+    </p>
+    <p>To respond, please click this link	<%= "click this link", "mailto:#{@sender.email}" %>.<br>
+    </p>
+  </body>
+</html>

@@ -7,6 +7,7 @@ To-Do List:
 - Add Contact Me with mailer
 - Build Courses page for Treehouse/CodeSchool badges
 
+
 Future:
 - Replace current CodeSchool badge loader with an AJAX request to the website (static file is okay for now because my account's not active, so no updates)
 
