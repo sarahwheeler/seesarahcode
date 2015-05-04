@@ -3,9 +3,12 @@ To-Do List:
 - Archives/index for posts; scopes for views
 - Add nifty date box (06/Feb/15) besides post title
 - Add calendar to Blog page
-- Add footers for views
+- Site .ico
 - Add Contact Me with mailer
-- Build CodeSchool badge fetcher through JSON
+- Build Courses page for Treehouse/CodeSchool badges
+
+Future:
+- Replace current CodeSchool badge loader with an AJAX request to the website (static file is okay for now because my account's not active, so no updates)
 
 
 Done:
@@ -16,3 +19,4 @@ Done:
 - Add pagination to blog post display
 - Import Tumblr posts
 - Build Treehouse badge fetcher through JSON
+- Add footers for views
