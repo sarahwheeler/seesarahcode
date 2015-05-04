@@ -1,3 +1,46 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*   SASS COLOR VARIABLES   */
+
+	$pinkJewel: #CC0066;
+	$redJewel: #990033;
+	$wineJewel: #660033;
+	$purpleJewel: #520052;
+	$darkBlueJewel: #000066;
+	$blueJewel: #006699;
+	$tealJewel: #009999;
+	$emeraldJewel: #009980;
+	$brightBlueJewel: #3284AD;
+
+
+.site-footer {
+	width: 100%;
+	height: 30px;
+	background-color: #d8efef;
+	padding: 6px 0 0 17%;
+	margin: 40px 0 20px 0;
+	font-size: 0.75em;
+	color: #475959;
+	display: inline-flex;
+	display: -webkit-inline-flex;
+	display: -ms-webkit-inline-flex;
+}
+
+.ftr-links {
+	display: inline-flex;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flex;
+	list-style: none;
+	margin-left: 6.5%;
+}
+
+.ftr-links li a {
+	font-size: 0.7em;
+	margin-right: 40px;
+}
+.ftr-links li a:hover {
+	color: $redJewel;
+	background-color: #d8efef !important;
+}
