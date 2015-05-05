@@ -1,7 +1,6 @@
 To-Do List: 
 
 - Archives/index for posts; scopes for views
-- Add nifty date box (06/Feb/15) besides post title
 - Add calendar to Blog page
 - Site .ico
 - Add Contact Me with mailer
@@ -21,3 +20,4 @@ Done:
 - Import Tumblr posts
 - Build Treehouse badge fetcher through JSON
 - Add footers for views
+- Add nifty date box (06/Feb/15) besides post title
