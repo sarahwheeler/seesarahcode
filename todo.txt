@@ -5,10 +5,26 @@ To-Do List:
 - Site .ico
 - Add Contact Me with mailer
 - Build Courses page for Treehouse/CodeSchool badges
+- Add mobile-friendly layout adaptations
+- Review for accessibility
+- Blog tests
+- Make TinyMCE/new entry page nice
+- Maybe set up TinyLetter for posts?
+- HTML output
+
+
+
+In-progress:
+
+- Add d3 visualization for Treehouse
+- Fix Recently Read animation
+
 
 
 Future:
+
 - Replace current CodeSchool badge loader with an AJAX request to the website (static file is okay for now because my account's not active, so no updates)
+
 
 
 Done:
