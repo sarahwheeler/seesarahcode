@@ -33,6 +33,26 @@ hr.minibar {
 	/* IE6-9 */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0066', endColorstr='#009999',GradientType=1 ); 
 }
+/*  SLICK OVERRIDES  */
+
+.slick-prev:before, .slick-next:before {
+	color: $tealJewel !important;
+}
+.slick-slide img {
+	border: solid 1px #808080;
+	border-radius: 4px;
+}
+.slick-slider {
+	width: 50%;
+	margin: 0 auto;
+}
+.slick-next:before {
+	padding-left: 15px;
+}
+.slick-prev {
+	left: -40px !important;
+}
+
 
 /*  LAYOUT  */
 
@@ -66,9 +86,13 @@ hr.sidebar-hr {
 	width: 50px;
 	margin: 0 0 15px -50%;
 }
+
+/*   BOOKS READ   */
+
 .book-img {
 	text-align: center;
 }
-.bk-img {
+.book-img img {
 	max-height: 200px;
+	max-width: 200px;
 }

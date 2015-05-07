@@ -6,7 +6,7 @@ To-Do List:
 - Add Contact Me with mailer
 - Build Courses page for Treehouse/CodeSchool badges
 - Add mobile-friendly layout adaptations
-- Review for accessibility
+- Review for accessibility (book slider is)
 - Blog tests
 - Make TinyMCE/new entry page nice
 - Maybe set up TinyLetter for posts?
@@ -17,7 +17,7 @@ To-Do List:
 In-progress:
 
 - Add d3 visualization for Treehouse
-- Fix Recently Read animation
+
 
 
 
@@ -29,6 +29,7 @@ Future:
 
 Done:
 
+- Fix Recently Read animation (and made awesomer)
 - Fix issue with black background on hovers
 - Finish The Advisor Center in Portfolio
 - Create an admin panel
