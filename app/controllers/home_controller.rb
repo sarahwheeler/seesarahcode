@@ -20,4 +20,7 @@ class HomeController < ApplicationController
 
   def index
   end
+
+  def treehouse_bubbles
+  end
 end

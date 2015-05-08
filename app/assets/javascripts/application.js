@@ -18,3 +18,4 @@
 //= require bootstrap
 //= require tinymce
 //= require jquery.slick
+//= require d3

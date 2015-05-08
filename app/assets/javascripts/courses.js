@@ -50,7 +50,6 @@ $(document).ready(function() {
   	}
   }).success(function(data) {
   	var points = data["user"]["total_score"];
-    console.log("POINTS:" + points);
     $('#codeschool-pts').text(commaSeparatedNumber(points));
     var badge_total = data["badges"].length;
     $('#codeschool-bdgs').text(badge_total);
