@@ -4,9 +4,43 @@
 	$redJewel: #990033;
 	$wineJewel: #660033;
 	$purpleJewel: #520052;
-	$darkblueJewel: #000066;
+	$darkBlueJewel: #000066;
 	$blueJewel: #006699;
 	$tealJewel: #009999;
+	$emeraldJewel: #009980;
+	$brightBlueJewel: #3284AD;
+
+#th-bubbles-wrapper {
+	padding:50px;
+}
+circle {
+	opacity: 0.88;
+}
+.ruby {
+	fill: $redJewel;
+}
+.html {
+	fill: $pinkJewel;
+}
+.javascript {
+	fill: $emeraldJewel;
+}
+.css {
+	fill: $blueJewel;
+}
+.php {
+	fill: $purpleJewel;
+}
+.android {
+	fill: $wineJewel;
+}
+.development {
+	fill: $brightBlueJewel;
+}
+.design {
+	fill: $darkBlueJewel;
+}
+
 
 .about-tech, .about-personality, .about-fun,
 .about-care, .about-education, .about-skills {
