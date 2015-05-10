@@ -1,6 +1,6 @@
 $(document).ready(function() {
-	var height = 500;
-	var width = 800;
+	var height = 600;
+	var width = 900;
 	var padding = 50;
 	bubbleFrame = d3.select("#th-bubbles-wrapper")
 	  								.append('svg')
@@ -11,20 +11,34 @@ $(document).ready(function() {
 	d3.json('https://teamtreehouse.com/sarahwheeler.json', 
 					function(error, json) {
     if (error) return console.warn(error);
-    data = json;
-    var points = [];
-    points.push(data.points);
-    for (var value in points) {
-    	var point_total = points[value];
-    	bubbles = bubbleFrame.selectAll('circle')
-    											.data(point_total)
+    var data = {"points": []};
+    for (var value in json.points) {
+    	if (value !== "total" && value !== "Business" && value !== "Design") {
+    		var point = json.points[value];
+    		var subject = value;
+    		data["points"].push({"subject": subject, "points": point});
+    	}
+    }
+    bubbles = bubbleFrame.selectAll('circle')
+    											.data(data.points)
 	  											.enter()
 	  											.append('circle');
-	  	bubbles.attr('r', function(d) { return Math.abs(d)/65 })
+	  bubbles.attr('r', function(d) { return Math.abs(d.points)/35 })
 	  				.attr('cx', function(d) {return Math.max(0 + padding, Math.random() * width - padding)})
           	.attr('cy', function(d) {return Math.max(0 + padding, Math.random() * height - padding)})
-	  				.attr('fill', '#000')
-    }
+	  				.attr('fill', '#15B89A')
+	  				.attr('stroke', '#000');
+	  var text = bubbleFrame.selectAll("text")
+                        .data(data.points)
+                        .enter()
+                        .append("text");
+    var textLabels = text
+                 .attr("x", function(d) { return d.cx; })
+                 .attr("y", function(d) { return d.cy; })
+                 .text( function (d) { return ; })
+                 .attr("font-family", "sans-serif")
+                 .attr("font-size", "20px")                 
+                 .attr("fill", "purple");
   });
 });
 
