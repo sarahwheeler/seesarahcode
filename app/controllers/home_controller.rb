@@ -23,4 +23,7 @@ class HomeController < ApplicationController
 
   def treehouse_bubbles
   end
+
+  def treehouse_donut
+  end
 end
