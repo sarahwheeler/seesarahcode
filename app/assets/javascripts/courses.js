@@ -13,6 +13,8 @@ $(document).ready(function() {
     var badges = badgeGrabber(data) // returns icon_urls
     badgeInserts(badges); //insert badge images & alt text
     // send data to language bubble chart
+    var allTheBadges = allBadges(data);
+    allBadgeInsert(allTheBadges);
   });
 
   function commaSeparatedNumber(val){
@@ -40,6 +42,25 @@ $(document).ready(function() {
   		var n = badges.indexOf(badge) + 1;
   		$('#badge' + n).html("<a href='" + badge[2] + "' target='_blank'><img src='" + badge[1] + "' title='" + badge[0] + "' class='th-badge-icon'></a>");
   	});
+  }
+
+  function allBadges(data) {
+    var icon_urls = [] // array [,] within array
+    var allCourses = data.badges.sort(function(a, b) {
+      a = new Date(a.earned_date);
+      b = new Date(b.earned_date);
+      return a>b ? -1 : a<b ? 1 : 0;
+    });
+    allCourses.forEach(function(badge) {
+       icon_urls.push([badge.name, badge.icon_url, badge.url]);
+    });
+    return icon_urls;
+  }
+
+  function allBadgeInsert(badges) {
+    badges.forEach(function(badge) {
+      $('.row').html("<div class='col-md-4'><div class='thumbnail'><img src='" + badge[1] + "' alt='" + badge[0] + "'><div class='caption'><p>"+ badge[0] +"</p></div></div></div>");
+    });
   }
 
   $.ajax({

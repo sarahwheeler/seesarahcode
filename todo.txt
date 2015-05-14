@@ -1,8 +1,7 @@
 To-Do for Launch: 
-	- Archives/index for posts; scopes for views
+
 	- Site .ico
 	- Add Contact Me with mailer
-	- Build Courses page for Treehouse/CodeSchool badges
 	- Review for accessibility (book slider is)
 	- Make TinyMCE/new entry page nice
 
@@ -13,11 +12,12 @@ Nice-to-haves:
 	- Blog tests
 	- Add mobile-friendly layout adaptations
 	- Replace current CodeSchool badge loader with an AJAX request to the website (static file is okay for now because my account's not active, so no updates)
+	- Update archives to be sorted/labeled by month
 
 
 In-progress:
 	- Add d3 visualization for Treehouse
-
+	- Build Courses page for Treehouse/CodeSchool badges
 
 
 Done:
@@ -31,3 +31,4 @@ Done:
 	- Add footers for views
 	- Add nifty date box (06/Feb/15) besides post title
 	- HTML output
+	- Post archives
