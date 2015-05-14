@@ -1,40 +1,33 @@
-To-Do List: 
+To-Do for Launch: 
+	- Archives/index for posts; scopes for views
+	- Site .ico
+	- Add Contact Me with mailer
+	- Build Courses page for Treehouse/CodeSchool badges
+	- Review for accessibility (book slider is)
+	- Make TinyMCE/new entry page nice
 
-- Archives/index for posts; scopes for views
-- Add calendar to Blog page
-- Site .ico
-- Add Contact Me with mailer
-- Build Courses page for Treehouse/CodeSchool badges
-- Add mobile-friendly layout adaptations
-- Review for accessibility (book slider is)
-- Blog tests
-- Make TinyMCE/new entry page nice
-- Maybe set up TinyLetter for posts?
-- HTML output
 
+Nice-to-haves:
+	- Add calendar to Blog page
+	- Maybe set up TinyLetter for posts?
+	- Blog tests
+	- Add mobile-friendly layout adaptations
+	- Replace current CodeSchool badge loader with an AJAX request to the website (static file is okay for now because my account's not active, so no updates)
 
 
 In-progress:
-
-- Add d3 visualization for Treehouse
-
-
-
-
-Future:
-
-- Replace current CodeSchool badge loader with an AJAX request to the website (static file is okay for now because my account's not active, so no updates)
+	- Add d3 visualization for Treehouse
 
 
 
 Done:
-
-- Fix Recently Read animation (and made awesomer)
-- Fix issue with black background on hovers
-- Finish The Advisor Center in Portfolio
-- Create an admin panel
-- Add pagination to blog post display
-- Import Tumblr posts
-- Build Treehouse badge fetcher through JSON
-- Add footers for views
-- Add nifty date box (06/Feb/15) besides post title
+	- Fix Recently Read animation (and made awesomer)
+	- Fix issue with black background on hovers
+	- Finish The Advisor Center in Portfolio
+	- Create an admin panel
+	- Add pagination to blog post display
+	- Import Tumblr posts
+	- Build Treehouse badge fetcher through JSON
+	- Add footers for views
+	- Add nifty date box (06/Feb/15) besides post title
+	- HTML output
