@@ -172,22 +172,27 @@ a:hover {
 
 /*   RESUME TYPOGRAPHY  */
 
-	p.job-description {
+	.job-description, .job-description ul li {
 		text-align: justify;
+		font-size: 1.3em;
+		font-family: 'Antic', sans-serif;
+		line-height: 1.4em;
 	}
 
 	p.job-dates {
-		font-size: 1em;
+		font-size: 1.25em;
 		color: $redJewel;
-		margin: -7px 0 7px 0;
+		margin: -1px 0 25px 0;
 	}
-
+.job-title {
+	font-size: 1.75em;
+}
 .online-box p {
 	font-family: 'Antic', sans-serif;
 
 }
 .smaller {
-	font-size: 0.92em;
+	font-size: 1em;
 	line-height: 1.3em;
 	margin: -5px 0 11px 0;
 }
@@ -201,6 +206,9 @@ a:hover {
 }
 .learning-title {
 	color: $pinkJewel !important;
+}
+.read-h4 {
+	margin-bottom: 0px !important;
 }
 .points {
 	text-align: center;
@@ -252,11 +260,28 @@ a:hover {
 		text-align: justify;
 		width: 80%;
 	}
+	.post-content p {
+		font-family: "Antic", sans-serif;
+		font-size: 1em;
+		line-height: 28px;
+		text-align: justify;
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	.post-content p a {
+		color: $pinkJewel;
+	}
 	h4.sidebar-title {
 		padding-bottom: 10px;	
 		border-bottom: dotted 1px $pinkJewel;
 		width: 70%;
 		color: $pinkJewel;
+	}
+	.sidebar-link {
+		color: $pinkJewel !important;
+	}
+	.sidebar-link:hover {
+		color: $wineJewel !important;
 	}
 	.recent-title {
 		display: block;
@@ -264,11 +289,25 @@ a:hover {
 		text-transform: small-caps;
 	}
 	/* SHOW PAGE */
-	.show-post-content {
+	.show-post-title {
+		color: $emeraldJewel;
+	}
+	.show-post-date {
+		color: $redJewel;
+		text-align: center;
+	}
+	.show-post-content p {
+		font-family: 'Antic', sans-serif;
 		text-align: justify;
 		width: 100%;
 		font-size: 1.75em;
-		line-height: 1.3em;
+		line-height: 1.35em;
+		color: #404040;
+		padding-bottom: 25px;
 	}
+	.show-post-content p a {
+		color: $pinkJewel;
+	}
+
 
 
