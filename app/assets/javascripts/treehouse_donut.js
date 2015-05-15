@@ -27,7 +27,7 @@ $(document).ready(function() {
 
   var arc = d3.svg.arc()
     .outerRadius(radius)
-    .innerRadius(radius-75);
+    .innerRadius(radius-95);
   
 
   var pie = d3.layout.pie()
