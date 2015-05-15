@@ -59,7 +59,7 @@ $(document).ready(function() {
 
   function allBadgeInsert(badges) {
     badges.forEach(function(badge) {
-      $('.row').html("<div class='col-md-4'><div class='thumbnail'><img src='" + badge[1] + "' alt='" + badge[0] + "'><div class='caption'><p>"+ badge[0] +"</p></div></div></div>");
+      $('#th-badges ul.row').append("<li class='th-thumbnail col-lg-2 col-md-2 col-sm-3 col-xs-4'><img src='" + badge[1] + "' class='th-badge-img' alt='" + badge[0] + "'><div class='caption'><p>"+ badge[0] +"</p></div></li>");
     });
   }
 
