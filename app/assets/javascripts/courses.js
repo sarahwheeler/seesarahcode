@@ -76,6 +76,8 @@ $(document).ready(function() {
     $('#codeschool-bdgs').text(badge_total);
     var badges = csBadgeGrabber(data) // returns icon_urls
     csBadgeInserts(badges); //insert badge images & alt text
+    var everything = csAllBadgeGrabber(data);
+    csAllBadgesInsert(everything);
   });
 
   function csBadgeGrabber(profile) {
@@ -87,10 +89,25 @@ $(document).ready(function() {
     return icon_urls;
   }
 
+  function csAllBadgeGrabber(profile) {
+    var icon_urls = [] // array [,] within array
+    var badges = profile.badges;
+    badges.forEach(function(badge) {
+       icon_urls.push([badge.name, badge.badge, badge.course_url]);
+    });
+    return icon_urls;
+  }
+
   function csBadgeInserts(badges) {
     badges.forEach(function(badge) {
       var n = badges.indexOf(badge) + 1;
       $('#cs-badge' + n).html("<a href='" + badge[2] + "' target='_blank'><img src='" + badge[1] + "' title='" + badge[0] + "' class='th-badge-icon'></a>");
+    });
+  }
+
+  function csAllBadgesInsert(badges) {
+    badges.forEach(function(badge) {
+      $('#cs-badges ul.row').append("<li class='th-thumbnail col-lg-2 col-md-2 col-sm-3 col-xs-4'><a href='" + badge[2] + "' target='_blank'><img src='" + badge[1] + "' title='" + badge[0] + "' class='cs-badge-img'></a></li>");
     });
   }
 

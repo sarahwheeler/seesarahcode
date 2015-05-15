@@ -2,16 +2,16 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#th-badges {
+#th-badges, #cs-badges {
 	display: inline-flex;
 	width: 70%;
 }
-#th-badges ul.row {
+#th-badges ul.row, #cs-badges ul.row {
 	list-style: none;
 	margin-left: 15%;
 }
 
-.th-thumbnail {
+.th-thumbnail, .cs-thumbnail {
 	margin: 25px 25px;
 	text-align: center;
 }
@@ -22,7 +22,14 @@
 	margin-bottom: 15px;
 }
 
-.th-thumbnail:nth-child(4n+1) {
+.cs-badge-img {
+	width: 105px;
+	height: 105px;
+	margin-bottom: 15px;
+}
+
+.th-thumbnail:nth-child(4n+1), 
+.cs-thumbnail:nth-child(4n+1) {
 	clear:left;
 }
 
