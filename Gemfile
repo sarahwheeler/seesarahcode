@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.4'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'pg'
 
 gem 'devise'
 
@@ -39,7 +39,13 @@ gem 'jbuilder', '~> 1.2'
 gem 'tumblr_client'
 
 gem 'awesome_print'
+group :development do 
+	gem 'sqlite3'
+end
 
+group :production do
+	gem 'pg'
+end
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
