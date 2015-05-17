@@ -1,7 +1,5 @@
 To-Do for Launch: 
-
-	- Site .ico
-	- Add Contact Me with mailer
+	
 	- Review for accessibility (book slider is)
 	- Make TinyMCE/new entry page nice
 
@@ -10,6 +8,7 @@ Nice-to-haves:
 	- Add calendar to Blog page
 	- Maybe set up TinyLetter for posts?
 	- Blog tests
+	- Site .ico
 	- Add mobile-friendly layout adaptations
 	- Replace current CodeSchool badge loader with an AJAX request to the website (static file is okay for now because my account's not active, so no updates)
 	- Update archives to be sorted/labeled by month
@@ -32,3 +31,4 @@ Done:
 	- Add nifty date box (06/Feb/15) besides post title
 	- HTML output
 	- Post archives
+	- Add Contact Me with mailer
