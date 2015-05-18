@@ -3,6 +3,7 @@ Seesarahcode::Application.configure do
     config.assets.paths << path
   end
 
+  config.assets.precompile += [ 'recently_read/*']
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
