@@ -1,4 +1,8 @@
 Seesarahcode::Application.configure do
+  Dir.glob("#{Rails.root}/app/assets/images/**/").each do |path|
+    config.assets.paths << path
+  end
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
