@@ -41,16 +41,27 @@ circle {
 	fill: $darkBlueJewel;
 }
 
+.about-left {
+	margin-left: 5%;
+	margin-right: -10%;
+}
 
 .about-tech, .about-personality, .about-fun,
 .about-care, .about-education, .about-skills {
 	display: none;
 	margin: auto;
+	margin-left: 15%;
 }
 
 .container {
-	width: 50%;
+	width: 70%;
 	margin: auto;
+}
+
+.tech-link, .personality-link, .edu-link,
+.care-link, .skills-link, .fun-link {
+	font-size: 1.25em;
+	line-height: 1.55em;
 }
 
 .tech-link:hover, .personality-link:hover, .edu-link:hover,
@@ -63,11 +74,14 @@ circle {
 .about-q {
 	padding: 10px 0;
 	text-align: center;
+	font-size: 1.55em;
 }
 
-.about-answer {
+.about-answer, .about-personality ul li {
 	text-align: justify;
 	padding-bottom: 7px;
+	font-size: 1.45em;
+	line-height: 1.25em;
 }
 
 .lupin-img {
