@@ -61,7 +61,7 @@ hr.minibar {
 	margin: auto;
 }
 
-.online-box {
+.online-box, #about-left {
 	border-radius: 8px;
 	background-color: #F0F0F0;
 	border: solid 1px lightblue;
@@ -78,7 +78,7 @@ hr.sidebar-hr {
 	height: 1px;
 	background: $tealJewel !important;
 	margin-top: -25px;
-	margin-bottom: 25px;
+	margin-bottom: 10px;
 }
 
 hr.read-hr {
