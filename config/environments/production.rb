@@ -3,7 +3,6 @@ Seesarahcode::Application.configure do
     config.assets.paths << path
   end
 
-  config.assets.precompile += [ 'recently_read/*.jpg', 'recently_read/*.jpeg', 'recently_read/*.png']
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
