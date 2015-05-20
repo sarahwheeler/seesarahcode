@@ -56,6 +56,7 @@ circle {
 .container {
 	width: 70%;
 	margin: auto;
+	margin-bottom: 50px;
 }
 
 .tech-link, .personality-link, .edu-link,
@@ -89,4 +90,21 @@ circle {
 	width:120px;
 	height: 50%;
 	margin-top: -15px;
+	margin-left: 25px;
+}
+
+.social-list {
+	margin-left: -6%;
+	line-height: 1.75em;
+	list-style: none;
+	font-weight: bold;
+	li {
+		font-size: 1.4em;
+	}
+	li a {
+		font-size: 0.85em;
+	}
+	li a:hover {
+		background-color: #f0f0f0 !important;
+	}
 }
