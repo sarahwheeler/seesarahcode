@@ -87,7 +87,7 @@ circle {
 
 .lupin-img {
 	float: right;
-	width:120px;
+	width:200px;
 	height: 50%;
 	margin-top: -15px;
 	margin-left: 25px;
@@ -107,4 +107,14 @@ circle {
 	li a:hover {
 		background-color: #f0f0f0 !important;
 	}
+}
+
+/*   BOOKS READ   */
+
+.lupin-img {
+	text-align: center;
+}
+.lupin-img img {
+	max-height: 200px;
+	max-width: 200px;
 }
