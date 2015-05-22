@@ -72,6 +72,29 @@ hr.minibar {
 .degrees {
 	margin-left: 5%;
 }
+.resume-pdf {
+	padding: 10px 10px;
+	width: 200px;
+	height: 50px;
+  background: #f7f7f7;
+  border: 3px solid transparent;
+  -moz-border-image: -moz-linear-gradient(top left,  $pinkJewel 0%, $redJewel 18%, $wineJewel 30%, $purpleJewel 45%, $darkblueJewel 60%, $blueJewel 78%, $tealJewel 100%); 
+  -webkit-border-image: -webkit-linear-gradient(top left,  $pinkJewel 0%, $redJewel 18%, $wineJewel 30%, $purpleJewel 45%, $darkblueJewel 60%, $blueJewel 78%, $tealJewel 100%);
+  border-image: linear-gradient(to bottom right, $pinkJewel 0%, $redJewel 18%, $wineJewel 30%, $purpleJewel 45%, $darkblueJewel 60%, $blueJewel 78%, $tealJewel 100%);
+  border-image-slice: 1;
+  margin: 10% 10% 10% 21%;
+  font-family: 'Raleway', sans-serif;
+  color: $purpleJewel;
+  font-weight: 700;
+  font-size: 1.15em;
+}
+.resume-pdf:hover {
+	background-color: #fff;
+	color: $tealJewel;
+}
+.downloady:hover {
+	background-color: #f0f0f0 !important;
+} 
 
 hr.sidebar-hr {
 	width: 90%;
