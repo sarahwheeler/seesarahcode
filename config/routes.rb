@@ -10,7 +10,6 @@ Seesarahcode::Application.routes.draw do
   get "/blog/archives", to: 'posts#archives', as: 'archives'
   get "home/recipe", to: 'home#recipe', as: 'recipe'
   get "home/index"
-  get "home/download_resume", to: 'home#download_resume', as: 'download_resume'
 
   get 'courses/code_school', to: 'courses#code_school'
 

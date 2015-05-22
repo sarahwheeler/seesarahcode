@@ -9,14 +9,6 @@ class HomeController < ApplicationController
     @courses = Course.all
   end
 
-  def download_resume
-    send_file(
-    "#{Rails.root}/public/SWheeler_Resume.pdf",
-    filename: "SWheeler_Resume.pdf",
-    type: "application/pdf"
-  )
-  end
-
   def about
   end
 
