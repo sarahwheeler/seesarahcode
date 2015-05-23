@@ -1,15 +1,4 @@
-/*   SASS COLOR VARIABLES   */
-
-	$pinkJewel: #CC0066;
-	$redJewel: #990033;
-	$wineJewel: #660033;
-	$purpleJewel: #520052;
-	$darkBlueJewel: #000066;
-	$blueJewel: #006699;
-	$tealJewel: #009999;
-	$emeraldJewel: #009980;
-	$brightBlueJewel: #3284AD;
-
+@import 'colors';
 	// BLOG INDEX //
 
 	.post {
@@ -59,10 +48,6 @@
 		color: white;
 		text-transform: uppercase;
 	}
-	.calendar {
-
-	}
-
 
 	// SHOW POST PAGE //
 

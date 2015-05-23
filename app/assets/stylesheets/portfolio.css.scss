@@ -1,14 +1,4 @@
-/*   SASS COLOR VARIABLES   */
-
-	$pinkJewel: #CC0066;
-	$redJewel: #990033;
-	$wineJewel: #660033;
-	$purpleJewel: #520052;
-	$darkBlueJewel: #000066;
-	$blueJewel: #006699;
-	$tealJewel: #009999;
-	$emeraldJewel: #009980;
-	$brightBlueJewel: #3284AD;
+@import 'colors';
 
 .port-project {
 	padding: 2em 0 2em 0;
@@ -30,17 +20,18 @@
 	filter: alpha(opacity=75); /* For IE8 and earlier */
 	margin-left: 18px;
 	margin-top: 3px;
+	&:hover {
+		display: inline-flex;
+		background: image-url('youtube-logo-color.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		height: 20px;
+		width: 52px;
+		opacity: 0.75;
+		filter: alpha(opacity=75); /* For IE8 and earlier */
+	}
 }
-.youtube-btn:hover {
-	display: inline-flex;
-	background: image-url('youtube-logo-color.png');
-	background-repeat: no-repeat;
-	background-size: 100%;
-	height: 20px;
-	width: 52px;
-	opacity: 0.75;
-	filter: alpha(opacity=75); /* For IE8 and earlier */
-}
+
 a .glyphicon.heroku-btn {
 	display: inline-flex;
 	font-size: 12pt;
@@ -64,14 +55,15 @@ a:hover .heroku-btn {
 	width: 25px;
 	height: 25px;
 	filter: alpha(opacity=75); /* For IE8 and earlier */
+	&:hover {
+		background: image-url('github-logo-blue.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 25px;
+		height: 25px;
+	}
 }
-.port-github:hover {
-	background: image-url('github-logo-blue.png');
-	background-repeat: no-repeat;
-	background-size: 100%;
-	width: 25px;
-	height: 25px;
-}
+
 .port-title {
 	display: inline-flex;
 }
@@ -92,10 +84,10 @@ a:hover .heroku-btn {
 	opacity: 0.75;
 	filter: alpha(opacity=75); /* For IE8 and earlier */
 	cursor: pointer;
-}
-.circle:hover, .bk-circle:hover {
-	opacity: 0.5;
-	filter: alpha(opacity=50); /* For IE8 and earlier */
+	&:hover {
+		opacity: 0.5;
+		filter: alpha(opacity=50); /* For IE8 and earlier */
+	}
 }
 .active {
 	background-color: #006666;

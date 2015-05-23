@@ -1,17 +1,7 @@
-/*   SASS COLOR VARIABLES   */
-
-	$pinkJewel: #CC0066;
-	$redJewel: #990033;
-	$wineJewel: #660033;
-	$purpleJewel: #520052;
-	$darkBlueJewel: #000066;
-	$blueJewel: #006699;
-	$brightBlueJewel: #3284AD;
-	$tealJewel: #009999;
-	$emeraldJewel: #009980;
+@import 'colors';
 
 #th-bubbles-wrapper {
-	padding:50px;
+	padding: 50px;
 }
 circle {
 	opacity: 0.88;
@@ -63,13 +53,11 @@ circle {
 .care-link, .skills-link, .fun-link {
 	font-size: 1.25em;
 	line-height: 1.55em;
-}
-
-.tech-link:hover, .personality-link:hover, .edu-link:hover,
-.care-link:hover, .skills-link:hover, .fun-link:hover {
-	text-decoration: none;
-	cursor: pointer;
-	color: $tealJewel;
+	&:hover {
+		text-decoration: none;
+		cursor: pointer;
+		color: $tealJewel;
+	}
 }
 
 .about-q {
@@ -103,9 +91,9 @@ circle {
 	}
 	li a {
 		font-size: 0.85em;
-	}
-	li a:hover {
-		background-color: #f0f0f0 !important;
+		&:hover {
+			background-color: #f0f0f0 !important;
+		}
 	}
 }
 

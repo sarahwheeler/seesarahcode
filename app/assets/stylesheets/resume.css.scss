@@ -1,13 +1,4 @@
-/*   SASS COLOR VARIABLES   */
-
-	$pinkJewel: #CC0066;
-	$redJewel: #990033;
-	$wineJewel: #660033;
-	$purpleJewel: #520052;
-	$darkblueJewel: #000066;
-	$blueJewel: #006699;
-	$tealJewel: #009999;
-	$brightBlueJewel: #3284AD;
+@import 'colors';
 
 
 hr.minibar {
@@ -19,15 +10,15 @@ hr.minibar {
 	/* Old browsers */
 	background: #cc0066; 
 	/* FF3.6+ */
-	background: -moz-linear-gradient(left,  $pinkJewel 0%, $redJewel 18%, $wineJewel 30%, $purpleJewel 45%, $darkblueJewel 60%, $blueJewel 78%, $tealJewel 100%); 
+	background: -moz-linear-gradient(left,  $pinkJewel 0%, $redJewel 18%, $wineJewel 30%, $purpleJewel 45%, $darkBlueJewel 60%, $blueJewel 78%, $tealJewel 100%); 
 	/* Chrome,Safari4+ */
-	background: -webkit-gradient(linear, left top, right top, color-stop(0%,$pinkJewel), color-stop(18%,$redJewel), color-stop(30%,$wineJewel), color-stop(51%,$purpleJewel), color-stop(55%,$darkblueJewel), color-stop(78%,$blueJewel), color-stop(100%,$tealJewel)); 
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,$pinkJewel), color-stop(18%,$redJewel), color-stop(30%,$wineJewel), color-stop(51%,$purpleJewel), color-stop(55%,$darkBlueJewel), color-stop(78%,$blueJewel), color-stop(100%,$tealJewel)); 
 	/* Chrome10+,Safari5.1+ */
-	background: -webkit-linear-gradient(left,  $pinkJewel 0%,$redJewel 18%,$wineJewel 30%,$purpleJewel 45%,$darkblueJewel 55%,$blueJewel 78%,$tealJewel 100%); 
+	background: -webkit-linear-gradient(left,  $pinkJewel 0%,$redJewel 18%,$wineJewel 30%,$purpleJewel 45%,$darkBlueJewel 55%,$blueJewel 78%,$tealJewel 100%); 
 	/* Opera 11.10+ */
-	background: -o-linear-gradient(left,  $pinkJewel 0%,$redJewel 18%,$wineJewel 30%,$purpleJewel 45%,$darkblueJewel 55%,$blueJewel 78%,$tealJewel 100%);
+	background: -o-linear-gradient(left,  $pinkJewel 0%,$redJewel 18%,$wineJewel 30%,$purpleJewel 45%,$darkBlueJewel 55%,$blueJewel 78%,$tealJewel 100%);
 	/* IE10+ */
-	background: -ms-linear-gradient(left,  $pinkJewel 0%,$redJewel 18%,$wineJewel 30%,$purpleJewel 45%,$darkblueJewel 55%,$blueJewel 78%,$tealJewel 100%); 
+	background: -ms-linear-gradient(left,  $pinkJewel 0%,$redJewel 18%,$wineJewel 30%,$purpleJewel 45%,$darkBlueJewel 55%,$blueJewel 78%,$tealJewel 100%); 
 	/* W3C *
 	background: linear-gradient(to right,  $pinkJewel 0%,$redJewel 18%,$wineJewel 30%,$purpleJewel 45%,$darkblueJewel 55%,$blueJewel 78%,$tealJewel 100%); 
 	/* IE6-9 */
@@ -78,20 +69,21 @@ hr.minibar {
 	height: 50px;
   background: #f7f7f7;
   border: 3px solid transparent;
-  -moz-border-image: -moz-linear-gradient(top left,  $pinkJewel 0%, $redJewel 18%, $wineJewel 30%, $purpleJewel 45%, $darkblueJewel 60%, $blueJewel 78%, $tealJewel 100%); 
-  -webkit-border-image: -webkit-linear-gradient(top left,  $pinkJewel 0%, $redJewel 18%, $wineJewel 30%, $purpleJewel 45%, $darkblueJewel 60%, $blueJewel 78%, $tealJewel 100%);
-  border-image: linear-gradient(to bottom right, $pinkJewel 0%, $redJewel 18%, $wineJewel 30%, $purpleJewel 45%, $darkblueJewel 60%, $blueJewel 78%, $tealJewel 100%);
+  -moz-border-image: -moz-linear-gradient(top left,  $pinkJewel 0%, $redJewel 18%, $wineJewel 30%, $purpleJewel 45%, $darkBlueJewel 60%, $blueJewel 78%, $tealJewel 100%); 
+  -webkit-border-image: -webkit-linear-gradient(top left,  $pinkJewel 0%, $redJewel 18%, $wineJewel 30%, $purpleJewel 45%, $darkBlueJewel 60%, $blueJewel 78%, $tealJewel 100%);
+  border-image: linear-gradient(to bottom right, $pinkJewel 0%, $redJewel 18%, $wineJewel 30%, $purpleJewel 45%, $darkBlueJewel 60%, $blueJewel 78%, $tealJewel 100%);
   border-image-slice: 1;
   margin: 10% 10% 10% 21%;
   font-family: 'Raleway', sans-serif;
   color: $purpleJewel;
   font-weight: 700;
   font-size: 1.15em;
+  &:hover {
+  	background-color: #fff;
+		color: $tealJewel;
+  }
 }
-.resume-pdf:hover {
-	background-color: #fff;
-	color: $tealJewel;
-}
+
 .downloady:hover {
 	background-color: #f0f0f0 !important;
 } 
@@ -122,8 +114,8 @@ hr.read-hr {
 
 .book-img {
 	text-align: center;
-}
-.book-img img {
-	max-height: 200px;
-	max-width: 200px;
+	img {
+		max-height: 200px;
+		max-width: 200px;
+	}
 }

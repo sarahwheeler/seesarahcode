@@ -2,17 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-/*   SASS COLOR VARIABLES   */
-
-	$pinkJewel: #CC0066;
-	$redJewel: #990033;
-	$wineJewel: #660033;
-	$purpleJewel: #520052;
-	$darkBlueJewel: #000066;
-	$blueJewel: #006699;
-	$tealJewel: #009999;
-	$emeraldJewel: #009980;
-	$brightBlueJewel: #3284AD;
+@import 'colors';
 
 
 .admin-posts {
@@ -27,18 +17,10 @@
 	width: 80%;
 	margin: 0 auto;
 	tr {
-		height: 45px;
-		
-		
+		height: 45px;	
 	}
-	th {
+	th, td {
 		padding: 5px 5px;
-
-	}
-	td {
-		padding: 5px 5px;
-		
-		
 	}
 }
 
@@ -57,9 +39,9 @@ td a {
 	font-size: 1.25em;
 	color: $blueJewel;
 	text-transform: small-caps;
-}
-td a:hover {
-	color: $emeraldJewel;
+	&:hover {
+		color: $emeraldJewel;
+	}
 }
 .new-course {
 	margin-left: 14%;
@@ -77,10 +59,10 @@ td a:hover {
 	background-color: white;
 	border-radius: 15px;
 	margin-left: 26%;
-}
-.create-post-btn:hover {
+	&:hover {
 		color: darkgreen;
 		background-color: #d6f5d6;
+	}
 }
 #coursework-tbl {
 	width: 62%;

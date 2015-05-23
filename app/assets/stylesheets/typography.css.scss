@@ -4,17 +4,7 @@
 	@import url(http://fonts.googleapis.com/css?family=Antic);
 
 
-/*   SASS COLOR VARIABLES   */
-
-	$pinkJewel: #CC0066;
-	$redJewel: #990033;
-	$wineJewel: #660033;
-	$purpleJewel: #520052;
-	$darkBlueJewel: #000066;
-	$blueJewel: #006699;
-	$tealJewel: #009999;
-	$emeraldJewel: #009980;
-	$brightBlueJewel: #3284AD;
+@import 'colors';
 
 
 a, a:visited {
@@ -79,9 +69,9 @@ a:hover {
 
 		a {
 			text-decoration: none;
-		}
-		a:hover {
-			text-decoration: none;
+			&:hover {
+				text-decoration: none;
+			}
 		}
 
 
@@ -228,12 +218,11 @@ a:hover {
 		font-weight: 600;
 		font-size: 1.4em;
 		color: $pinkJewel;
+		&:hover {
+			text-decoration: none;
+			color: $brightBlueJewel;
+		}
 	}
-	a .project-title:hover {
-		text-decoration: none;
-		color: $brightBlueJewel;
-	}
-
 	p.description, p.gems-libs, p.language {
 		font-family: 'Antic', sans-serif;
 		font-size: 0.8em;
@@ -259,18 +248,19 @@ a:hover {
 		line-height: 28px;
 		text-align: justify;
 		width: 80%;
+		p {
+			font-family: "Antic", sans-serif;
+			font-size: 1em;
+			line-height: 28px;
+			text-align: justify;
+			width: 100%;
+			padding-bottom: 20px;
+			a {
+				color: $pinkJewel;
+			}
+		}
 	}
-	.post-content p {
-		font-family: "Antic", sans-serif;
-		font-size: 1em;
-		line-height: 28px;
-		text-align: justify;
-		width: 100%;
-		padding-bottom: 20px;
-	}
-	.post-content p a {
-		color: $pinkJewel;
-	}
+
 	h4.sidebar-title {
 		padding-bottom: 10px;	
 		border-bottom: dotted 1px $pinkJewel;
@@ -279,9 +269,9 @@ a:hover {
 	}
 	.sidebar-link {
 		color: $pinkJewel !important;
-	}
-	.sidebar-link:hover {
-		color: $wineJewel !important;
+		&:hover {
+			color: $wineJewel !important;
+		}
 	}
 	.recent-title {
 		display: block;
@@ -304,10 +294,7 @@ a:hover {
 		line-height: 1.35em;
 		color: #404040;
 		padding-bottom: 25px;
+		a {
+			color: $pinkJewel;
+		}
 	}
-	.show-post-content p a {
-		color: $pinkJewel;
-	}
-
-
-
