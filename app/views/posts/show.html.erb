@@ -1,13 +1,23 @@
 <div id="show-post">
 	<p id="notice"><%= notice %></p>
 
+<div class="col-md-2">
+	<span class="glyphicon glyphicon-icon-chevron-left" aria-hidden="true"></span>
+</div>
+
+<div class="col-md-8">
 	<p>
-	  <h2 class="show-post-title"><strong>#<%= @post.id %></strong>
-	  <%= @post.title %></h2>
+  <h2 class="show-post-title"><strong>#<%= @post.id %></strong>
+  <%= @post.title %></h2>
 	</p>
 	<br>
 	<h4 class="show-post-date"><%= @post.created_at.strftime("%B %d, %C%y")%> &#8226; <%= @post.created_at.strftime("A %A at %l:%M %P")%></h4>
 	<br><br>
 	<div class="show-post-content"><%= @post.content.html_safe %></div>
+</div>
+
+<div class="col-md-2">
+	<span class="glyphicon glyphicon-icon-chevron-right" aria-hidden="true"></span>
+</div>
 
 </div>
