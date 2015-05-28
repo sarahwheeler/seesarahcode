@@ -1,6 +1,5 @@
 require 'tumblr_client'
 require 'awesome_print'
-require './config/secrets'
 
 namespace :blog_import do
   desc "TODO"
