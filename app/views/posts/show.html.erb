@@ -2,10 +2,10 @@
 	<p id="notice"><%= notice %></p>
 
 	<p>
-		<span class="glyphicon glyphicon-icon-chevron-left" aria-hidden="true"></span>
+		<%= previous_entry(@post.id) %>
 	  <h2 class="show-post-title"><strong>#<%= @post.id %></strong>
 	  <%= @post.title %></h2>
-	  <span class="glyphicon glyphicon-icon-chevron-right" aria-hidden="true"></span>
+	  <%= next_entry(@post.id) %>
 	</p>
 	<br>
 	<h4 class="show-post-date"><%= @post.created_at.strftime("%B %d, %C%y")%> &#8226; <%= @post.created_at.strftime("A %A at %l:%M %P")%></h4>
