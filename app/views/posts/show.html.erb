@@ -1,12 +1,17 @@
 <div id="show-post">
 	<p id="notice"><%= notice %></p>
-
-	<p>
+	<div class="row">
+	<div class="col-xs-2">
 		<%= previous_entry(@post.id) %>
-	  <h2 class="show-post-title"><strong>#<%= @post.id %></strong>
-	  <%= @post.title %></h2>
-	  <%= next_entry(@post.id) %>
-	</p>
+	</div>
+	<div class="col-xs-8">
+		<p><h2 class="show-post-title"><strong>#<%= @post.id %></strong>
+	  <%= @post.title %></h2></p>
+	</div>
+	<div class="col-xs-2">
+		<%= next_entry(@post.id) %>
+	</div>
+</div>
 	<br>
 	<h4 class="show-post-date"><%= @post.created_at.strftime("%B %d, %C%y")%> &#8226; <%= @post.created_at.strftime("A %A at %l:%M %P")%></h4>
 	<br><br>
