@@ -3,7 +3,7 @@ $(document).ready(function() {
   if (error) return console.warn(error);
   var dataset = [];
   for (var value in json.points) {
-    if (value !== "total" && value !== "Business") {
+    if (value !== "total" && value !== "Business" && value !== "Android") {
       var point = json.points[value];
       var sbjt = value;
       dataset.push({"subject": sbjt, "points": point});
@@ -15,7 +15,7 @@ $(document).ready(function() {
   var radius = Math.min(width, height) / 2;
 
   var color = d3.scale.ordinal()
-  .range(["#CC0066","#990033", "#8a4996", "#520052", "#000066", "#006699", "#3284AD", "#009999", "#009980", "#134B4E"]);
+  .range(["#CC0066","#990033", "#8a4996", "#520052", "#000066", "#006699", "#3284AD", "#009999",  "#134B4E"]);
 
   var svg = d3.select('#th-donut-wrapper')
     .append('svg')
