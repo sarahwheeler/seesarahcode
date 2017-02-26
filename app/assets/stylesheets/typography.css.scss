@@ -48,8 +48,8 @@ a:hover {
 		font-weight: 400;
 		font-size: 2.5em;
 		text-transform: uppercase;
-		color: $pinkJewel;
-		margin-bottom: 75px;
+		color: $tealJewel;
+		margin-bottom: 44px;
 	}
 
 	h3 {
@@ -64,7 +64,7 @@ a:hover {
 /*  TEXT  */
 
 		p {
-			font-family: 'Antic', sans-serif;
+			font-family: 'Open Sans', sans-serif;
 			font-size: 1.2em;
 		}
 
@@ -79,8 +79,15 @@ a:hover {
 		}
 
 		li {
-			font-family: 'Antic', sans-serif;
+			font-family: 'Heebo', sans-serif;
 			font-size: 1.2em;
+			margin-bottom: 6px;
+		}
+
+		.skills-list {
+			font-family: 'Heebo', sans-serif;
+			font-size: 1.05em;
+			margin-bottom: 6px;
 		}
 
 		a {
@@ -181,24 +188,25 @@ a:hover {
 	.job-description, .job-description ul li {
 		text-align: justify;
 		font-size: 1.3em;
-		font-family: 'Antic', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		line-height: 1.4em;
 	}
 
 	p.job-dates {
 		font-size: 1.25em;
 		color: $redJewel;
-		margin: -1px 0 25px 0;
+		margin: -1px 0 10px 0;
 	}
 .job-title {
 	font-size: 1.75em;
 }
 .online-box p {
-	font-family: 'Antic', sans-serif;
-
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	margin-bottom: 5px;	
 }
 .smaller {
-	font-size: 1em;
+	font-size: 0.82em;
 	line-height: 1.3em;
 	margin: -5px 0 11px 0;
 }
@@ -208,7 +216,9 @@ a:hover {
 	color: $redJewel;
 }
 .sidebar-h4 {
+	margin-bottom: 20px;
 	text-align: center;
+	font-size:1.55em;
 }
 .learning-title {
 	color: $pinkJewel !important;
@@ -278,10 +288,10 @@ a:hover {
 		color: $pinkJewel;
 	}
 	h4.sidebar-title {
-		padding-bottom: 10px;	
 		border-bottom: dotted 1px $pinkJewel;
-		width: 70%;
 		color: $pinkJewel;
+		padding-bottom: 10px;	
+		width: 70%;
 	}
 	.sidebar-link {
 		color: $pinkJewel !important;

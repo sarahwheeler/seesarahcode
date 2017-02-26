@@ -1,80 +1,88 @@
-<h1>Resume</h1>
+<h1></h1>
+<div class="downloady">
+	<%= link_to "/SWheeler_Resume.pdf", target: "_blank" do %>
+		<button class="resume-pdf">Download Resume</button>
+	<% end %>
+</div>
 <br><br>	
 
+<div class="col-lg-1"></div>
 <div id="education-left" class="col-xs-6 col-lg-4">
- <div class="online-box">
+	<div class="online-box">
+	 	<h2>Skills</h2>
+	 		<h4 class="sidebar-h4">Languages</h4>
+	 		 	<ul class="skills-list">
+	 		 		<li>Ruby (Ruby on Rails, Sinatra)</li>
+	 		 		<li>JavaScript (React, Ember, vanilla)</li>
+					<li>HTML (HAML, Slim)</li>
+					<li>CSS (Sass, Bootstrap)</li>	
+					<li>MySQL, Postgres</li>
+	 		 	</ul>
 
- 	<%= link_to "/SWheeler_Resume.pdf", target: "_blank", class: "downloady" do %>
- 		<button class="resume-pdf">Download Resume</button>
- 	<% end %>
+			<br>
 
- 	<h3 class="edu-head">Skills</h3>
- 		<hr class="sidebar-hr">
- 		<br>
- 		<h4 class="sidebar-h4">Languages</h4>
- 		 	<ul>
- 		 		<li>Ruby/Ruby on Rails</li>
-				<li>HTML &amp; CSS</li>
-				<li>JavaScript, including jQuery, Ember.js, and d3</li>
-				<li>MySQL, Postgres</li>
- 		 	</ul>
+	 		<h4 class="sidebar-h4">Test-Driven</h4>
+	 		 	<ul class="skills-list">
+	 		 		<li>TDD/BDD</li>
+	 		 		<li>Minitest, RSpec</li>
+					<li>Cucumber</li>
+					<li>Capybara</li>
+					<li>Continuous integration</li>
+	 		 	</ul>
 
-		<br>
+			<br>
 
- 		<h4 class="sidebar-h4">Test-Driven</h4>
- 		 	<ul>
- 		 		<li>TDD/BDD</li>
- 		 		<li>Minitest, RSpec</li>
-				<li>Cucumber</li>
-				<li>Capybara</li>
-				<li>Continuous integration</li>
- 		 	</ul>
-
-		<br>
-
- 		<h4 class="sidebar-h4">Toolbox</h4>
- 		 	<ul>
- 		 		<li>OS: Mac/Linux/Windows</li>
- 		 		<li>Sublime Text, Vim</li>
-				<li>Git/Github, Pivotal Tracker, Trello</li>
-				<li>Adobe Creative Suite<br> (InDesign, Illustrator, Photoshop)</li>
- 		 	</ul>
-
-		<br>
-
- 		<h3 class="edu-head">Education</h3>
- 		<hr class="sidebar-hr">
- 		<br>
- 		<div class="degrees">
-	 		<p>Certificate in Ruby Programming</p>
-	 		<p class="smaller">University of Washington Professional and Continuing Education</p>
-	 		<p class="smaller">Awarded September 2014</p>
-	 		<br>
-	 		<p>M.A. in Women's Studies</p>
-	 		<p class="smaller">San Diego State University &#8226; 2011</p>
-	 		<br>
-	 		<p>B.A. in Women's Studies</p>
-	 		<p class="smaller">University of California, Riverside &#8226; 2009</p>
-	 		<br>
-	 	</div>
-
- 		<h3 class="edu-head">Online Learning</h3>
- 		<hr class="sidebar-hr">
- 		<br>
- 		<%= render :partial => "courses/treehouse" %> 
- 		<br><br><br>
- 		<%= render :partial => "courses/codeschool" %>
-
-
- 		<br><br><br>
- </div>
+	 		<h4 class="sidebar-h4">Toolbox</h4>
+	 		 	<ul class="skills-list">
+					<li>Git/Github, Jira, Pivotal Tracker, Trello</li>
+					<li>Sublime Text, Vim</li>
+					<li>Adobe Creative Suite<br> (InDesign, Illustrator, Photoshop)</li>
+					<li>OS-flexible</li>
+	 		 	</ul>
+	 	<br><br>
+	</div>
+	<br><br><br>
+	<div class="online-box">
+			<h2>Education</h2>
+	 		<div class="degrees">
+		 		<p>Certificate in Ruby Programming<br>
+		 		<span class="smaller">University of Washington Professional <br>and Continuing Education<br>
+		 		Awarded September 2014</span></p>
+		 		<br>
+		 		<p>M.A. in Women's Studies<br>
+		 		<span class="smaller">San Diego State University</span></p>
+		 		<br>
+		 		<p>B.A. in Women's Studies</br>
+		 		<span class="smaller">University of California, Riverside</span></p>
+		 		<br>
+		 	</div>
+	</div>
 </div>
 
 
-<div id="resume-right" class="col-xs-12 col-sm-6 col-lg-8">
+<div id="resume-right" class="col-xs-12 col-sm-6 col-lg-6">
+
 	<div class="resume-box">
+		<h2>Positions</h2>
+		<h4 class="job-title">Jr. Software Developer at TeamSnap</h4>
+		<p class="job-dates">October 2015&mdash;Present</p>
+		<br>
+		<div class="job-description">Full stack development and support engineering on a Ruby on Rails application and microservices growing to over 12 million users (primarily sports organizations). Duties include:<br> <br> 
+			<ul>
+					<li>Building back end Ruby API and microservices</li>
+					<li>Performing high-impact bug fixes across main platform, APIs, & microservices</li>
+					<li>Innovating & implementing internal support tools from design to development</li>
+					<li>Enhancing & refactoring existing features</li>
+					<li>Escalating, documenting, & debugging issues</li>
+					<li>Coordinating focused solutions with support & produect development teams</li>
+					<li>Code reviews & training</li>
+					<li>Performing on-call rotation duties</li>
+				</ul>
+		</div>
+		<br><br><br>
 		<h4 class="job-title">Jr. Developer at The Advisor Center</h4>
 		<p class="job-dates">October 2014&mdash;Present</p>
+		<br>
 		<div class="job-description">Full stack development on a Ruby on Rails application for financial industry professionals. Duties include:<br> <br> 
 			<ul>
 					<li>Coding new, customer-oriented features in Rails and JavaScript frameworks <br>(Ember.js, CanJS)</li>
@@ -88,75 +96,22 @@
 					<li>Project management</li>
 				</ul>
 		</div>
-	</div>
-
-	<hr class="minibar">
-
-	<div class="resume-box">
-		<h4>Senior Project Editor at Cognella</h4>
+		<br><br><br>
+		<h4 class="job-title">Senior Project Editor at Cognella</h4>
 		<p class="job-dates">May 2011&mdash;October 2014</p>
 		<p class="job-dates">Previous positions: Project Editor, Editorial Assistant</p>
+		<br>
 		<div class="job-description">Responsible for the creation and publication of over 60 college textbooks each academic term, from development stage to printing, in a fast-paced publishing setting. Duties included: <br><br> 
 			<ul>
 				<li>Creating, designing, and editing book layouts</li>
-				<li>Trafficking book files through every stage of production</li>
 				<li>Hiring and supervision of 30+ freelance proofreaders, copyeditors, and indexers</li>
-				<li>Advising authors throughout writing and publishing process</li>
-				<li>Coordinating between sales/marketing, licensing, and operations departments to ensure success of each title</li>
+				<li>Trafficking book files through every stage of production</li>
 				<li>Managing project budgets and resources</li>
 				<li>General editing duties (proofreading, quality checks, database information management)</li>
 			</ul> 
+			<br><br>
 		</div>
-	</div>
-
-	<hr class="minibar">
-
-	<div class="resume-box">
-		<h4>Graduate Teaching Associate at San Diego State University</h4>
-		<p class="job-dates">August 2010&mdash;May 2011</p>
-		<div class="job-description">Autonomously designed and taught an undergraduate-level women’s studies course titled “Women: Self, Identity, and Society.” Duties included:<br><br> 
-			<ul>
-				<li>Created social science-based class syllabus (selecting reading and written assignments, setting class policies, etc.)</li>
-				<li>Taught weekly classes</li>
-				<li>Grading and rubric design</li>
-				<li>Held office hours and met with students</li>
-			</ul>
-		</div>
-	</div>
-
-
-	<hr class="minibar">
-
-	<div class="resume-box">
-		<h4>Graduate Assistant at San Diego State University</h4>
-		<p class="job-dates">June 2010&mdash;August 2010</p>
-		<div class="job-description">Planned and organized department’s fall fundraising dinner; conducted archival research on department history; material selection and preparation for “Sustaining a Revolution: Women’s Studies Turns 40,” a library exhibit at SDSU Love Library; managed exhibit installation.</div>
-	</div>
-
-	<hr class="minibar">
-
-	<div class="resume-box">
-		<h4>Graduate Student Coordinator at San Diego State University</h4>
-		<p class="job-dates">August 2009&mdash;May 2010</p>
-		<div class="job-description">Coordinated weekly meetings of the Young Women’s Studies Club at Hoover High School, a mentoring
-		program for underprivileged youth run through SDSU. Duties included:<br> <br> 
-		<ul>
-			<li>Planning/implementing weekly social justice discussions and activities</li>
-			<li>Assisting in the supervision of sociological research during club meetings</li>
-			<li>Supervising and training volunteer undergraduate mentors</li>
-			<li>Mentoring both college and high school students</li>
-			<li>Managing food and supply distribution</li>
-			<li>Acting as liaison between Hoover High School and SDSU</li>
-		</ul>
 	</div>
 </div>
 
-	<hr class="minibar">
-
-	<div class="resume-box">
-		<h4>Research Assistant at University of California, Riverside</h4>
-		<p class="job-dates">May 2009&mdash;July 2009</p>
-		<div class="job-description">Conducted archival research for a professor in the Women's Studies department. Traveled to the One Archives in Los Angeles, CA, photographed archival materials, formatted and edited resulting photos into OCR-ready .pdf files.</div>
-	</div>
-	<br><br>
-</div>
+<div class="col-lg-1"></div>
