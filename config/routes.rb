@@ -1,5 +1,5 @@
 Seesarahcode::Application.routes.draw do
-  root "home#recipe"
+  root "home#index"
 
   resources :courses
 

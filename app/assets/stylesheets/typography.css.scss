@@ -1,7 +1,11 @@
 /* FONT IMPORTS */
 
 	@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,700,600,800,900);
-	@import url(http://fonts.googleapis.com/css?family=Antic);
+	@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic);
+	@import url(https://fonts.googleapis.com/css?family=Heebo:100,300,400);
+	@import url(https://fonts.googleapis.com/css?family=Assistant:200,300,400);
+	@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
 
 
 /*   SASS COLOR VARIABLES   */
@@ -21,7 +25,7 @@ a, a:visited {
 	color: $emeraldJewel;
 }
 a:hover {
-	background-color: #fff !important;
+	background-color: #fff;
 	color: $redJewel;
 }
 
@@ -32,6 +36,14 @@ a:hover {
 	}
 
 	h1 {
+		margin: auto 0;
+		font-size: 5em;
+		font-family: "Heebo";
+		padding-top: 150px;
+		padding-bottom: 30px;
+	}
+
+	h2 {
 		font-family: "Raleway";
 		font-weight: 400;
 		font-size: 2.5em;
@@ -40,18 +52,12 @@ a:hover {
 		margin-bottom: 75px;
 	}
 
-	h2 {
-		margin: auto 0;
-		font-size: 6em;
-		font-family: "Advent Pro";
-	}
-
 	h3 {
 		color: $darkBlueJewel;
 	}
 
 	h4 {
-		color: $tealJewel;
+		color: #000;
 		font-family: "Raleway", sans-serif;
 	}
 
@@ -227,7 +233,7 @@ a:hover {
 		text-align: left;
 		font-weight: 600;
 		font-size: 1.4em;
-		color: $pinkJewel;
+		color: $tealJewel;
 	}
 	a .project-title:hover {
 		text-decoration: none;
@@ -235,8 +241,8 @@ a:hover {
 	}
 
 	p.description, p.gems-libs, p.language {
-		font-family: 'Antic', sans-serif;
-		font-size: 0.8em;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 0.75em;
 		text-align: justify;
 	}
 
