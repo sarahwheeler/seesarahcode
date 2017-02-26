@@ -1,15 +1,26 @@
 <h1>About Me</h1>
 <br>
-<div class="col-lg-3"></div>
-<div class="col-lg-7 about-top">
-	<div class="col-lg-7">
+<div class="col-lg-2"></div>
+<div class="col-lg-8 about-top">
+	<div class="col-lg-12">
 		<h4 class="about-me">I grew up in southern California and currently live in the Pacific Northwest with my maltese-poodle mix, Lupin. Previously, I've been an university lecturer, published author, and textbook editor. A true serial hobbyist, I love to create in any medium I can, which currently includes writing, watercolor painting, knitting, and design. I love gardening and spending time in nature, and hope to one day handbuild my own house with natural materials.</h4>
-	
-		<h4 class="about-me">As a developer, I love to write thoughtful, well-architected code to solve challenging problems. I have an inexhaustible desire to learn and improve, as well as a great eye for UI and UX design. Although I'm adaptable to any framework and try to be language agnostic (use the right tool for the right job!), I especially love Ruby.</h4>
-	</div>
-	<div class="col-lg-5">
-		<%= image_tag 'me3.png', class: 'img-border img-thumbnail', size: '200px', alt: "Sarah's face" %>
 	</div>
 </div>
 <div class="col-lg-2"></div>
 
+<br><br>
+<footer class="footer"> 
+	<div class="site-footer abs-footer">
+		<div class="col-xs-3">&copy; <%= Time.now.year %> SeeSarahCode.com</div>
+		<div class="col-xs-2"></div>
+		<div class="col-xs-7">
+			<ul class="ftr-links">
+				<li><%= link_to "Portfolio", portfolio_path %></li>
+				<li><%= link_to "Resume", resume_path %></li>
+				<li><%= link_to "About", about_path %></li>
+				<li><%= mail_to "seesarahcode@gmail.com", "Contact", subject: "Nice to meet you, Sarah!" %></li>
+			</ul>
+		</div>
+	  
+	</div>
+</footer>

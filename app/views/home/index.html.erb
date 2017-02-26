@@ -1,3 +1,29 @@
 <h1>Hi, I'm Sarah.</h1>
-<h2>I'm a professional web developer who loves coding engaging apps for diverse audiences</h2>
-
+<h3>I'm a professional web developer who loves coding engaging apps for diverse audiences.</h3>
+<br>
+<div class="col-lg-3"></div>
+<div class="col-lg-7 about-top">
+	<div class="col-lg-7">
+		<h4 class="about-me">Every day I wake up excited to write simple, well-architected code that solves challenging problems. I have a proven track record of delivering thoughtful features, a great eye for UI and UX design, and an inexhaustible desire to learn. Although I'm adaptable to any framework and try to be language agnostic (use the right tool for the right job!), I especially love Ruby.</h4>
+	</div>
+	<div class="col-lg-5">
+		<%= image_tag 'me3.png', class: 'img-border img-thumbnail', size: '200px', alt: "Sarah's face" %>
+	</div>
+</div>
+<div class="col-lg-2"></div>
+<br><br>
+<footer class="footer"> 
+	<div class="site-footer abs-footer">
+		<div class="col-xs-3">&copy; <%= Time.now.year %> SeeSarahCode.com</div>
+		<div class="col-xs-2"></div>
+		<div class="col-xs-7">
+			<ul class="ftr-links">
+				<li><%= link_to "Portfolio", portfolio_path %></li>
+				<li><%= link_to "Resume", resume_path %></li>
+				<li><%= link_to "About", about_path %></li>
+				<li><%= mail_to "seesarahcode@gmail.com", "Contact", subject: "Nice to meet you, Sarah!" %></li>
+			</ul>
+		</div>
+	  
+	</div>
+</footer>

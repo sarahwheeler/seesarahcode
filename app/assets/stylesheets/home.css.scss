@@ -31,6 +31,13 @@
 	display: inline-flex;
 	display: -webkit-inline-flex;
 	display: -ms-webkit-inline-flex;
+
+}
+
+.abs-footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 .ftr-links {
