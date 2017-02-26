@@ -78,6 +78,13 @@ a:hover {
 			background-color: #000;
 		}
 
+		.github-logo {
+			margin: -7px 20px 0 5px;
+		}
+
+		.github-logo:hover {
+			opacity: .50;
+		}
 
 
 /* NAV BAR  */
@@ -92,8 +99,4 @@ a:hover {
 
 	.navbar-nav {
 		float: right;  
-	}
-
-	nav {
-		
 	}

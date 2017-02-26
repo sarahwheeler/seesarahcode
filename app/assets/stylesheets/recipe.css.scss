@@ -17,6 +17,11 @@
 	$tealJewel: #009999;
 
 
+	$mintyFresh: #BFFFBF;
+	$icyBlue: #BFFFFF;
+	$frostyPink: #eeb2c2;
+
+
 	hr {
 		clear:both;
 		height:5px;
@@ -53,14 +58,15 @@
 			height:50%;
 		}
 
-		.img-circle {
-			background-color: $redJewel;
+		.img-border {
+			background-color: $mintyFresh;
 		}
 
 
 		.img-thumbnail {
-			margin: -9% 30px -15% 0;
-			float: right;
+			margin: 3% 30px -15% 25px;
+			float: left;
+			max-width: 60%;
 		}
 
 

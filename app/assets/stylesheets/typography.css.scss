@@ -236,6 +236,12 @@ a:hover {
 	margin-left: 25%;
 }
 
+.res-resume {
+	font-size: 1.25em;
+	line-height: 1.25em;
+	text-transform: uppercase;
+}
+
 /*   PORTFOLIO TYPOGRAPHY  */
 
 	.project-title, a .project-title {
@@ -325,5 +331,8 @@ a:hover {
 		color: $pinkJewel;
 	}
 
-
-
+h4.about-me {
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.4em;
+	text-align: justify;
+}

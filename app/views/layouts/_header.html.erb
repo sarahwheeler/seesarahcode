@@ -8,6 +8,11 @@
         <li><%= link_to "Portfolio", portfolio_path %></li>
         <li><%= link_to "Resume", resume_path %></li>
         <li><%= link_to "About", about_path %></li>
+        <li>
+        <%= link_to 'https://github.com/seesarahcode', target: "_blank", alt: "Visit Sarah's GitHub Profile" do %>
+          <%= image_tag 'github-logo.png', class: 'github-logo', size: '32x32', alt: "Sarah's GitHub Profile" %>
+        <% end %>
+      </li>
     </ul>
 
   </div>
