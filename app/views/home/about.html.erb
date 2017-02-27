@@ -2,25 +2,59 @@
 <br>
 <div class="col-lg-2"></div>
 <div class="col-lg-8 about-top">
-	<div class="col-lg-12">
-		<h4 class="about-me">I grew up in southern California and currently live in the Pacific Northwest with my maltese-poodle mix, Lupin. Previously, I've been an university lecturer, published author, and textbook editor. A true serial hobbyist, I love to create in any medium I can, which currently includes writing, watercolor painting, knitting, and design. I love gardening and spending time in nature, and hope to one day handbuild my own house with natural materials.</h4>
+	<div class="col-lg-1"></div>
+	<div class="col-lg-10">
+		<h4 class="about-me">I grew up in southern California and currently live in the Pacific Northwest with my maltese-poodle mix, Lupin. Prior to becoming a developer, I worked as a university lecturer, published author, textbook editor, and youth mentor. A true serial hobbyist, I love to create in any medium I can, which currently includes writing, watercolor painting, knitting, and design. I love gardening and spending time in nature, and hope to one day handbuild my own house with natural materials.</h4>
+		<br>
+		<h4 class="about-me">Contact me through <%= link_to "LinkedIn", "https://www.linkedin.com/in/sarahcwheeler/", target: "_blank" %> or <%= mail_to "seesarahcode@gmail.com", "email", subject: "Nice to meet you, Sarah!" %>.<br><br></li></h4>
 	</div>
+	<div class="col-lg-1"></div>
 </div>
 <div class="col-lg-2"></div>
 
-<br><br>
-<footer class="footer"> 
-	<div class="site-footer abs-footer">
-		<div class="col-xs-3">&copy; <%= Time.now.year %> SeeSarahCode.com</div>
-		<div class="col-xs-2"></div>
-		<div class="col-xs-7">
-			<ul class="ftr-links">
-				<li><%= link_to "Portfolio", portfolio_path %></li>
-				<li><%= link_to "Resume", resume_path %></li>
-				<li><%= link_to "About", about_path %></li>
-				<li><%= mail_to "seesarahcode@gmail.com", "Contact", subject: "Nice to meet you, Sarah!" %></li>
-			</ul>
-		</div>
-	  
+<br/><br/><br/><br/>
+
+<div class="col-lg-12 photo-row photo-extra">
+	<div class="col-lg-4"></div>
+	<div class="col-lg-2">
+		<figure class="figure">
+			<%= image_tag 'me-lupin.png', class: 'figure-img img-fluid', size: '220px', alt: "Lupin the Wonder Dog", style: 'max-width: 104%;' %>
+			<figcaption class="figure-caption">Lupin the Wonder Dog.</figcaption>
+		</figure>
 	</div>
-</footer>
+	<div class="col-lg-2">
+		<figure class="figure">
+			<%= image_tag 'me-knitting1.png', class: 'figure-img img-fluid', size: '220px', alt: "Handknit lace shawl", style: 'max-width: 104%;' %>
+			<figcaption class="figure-caption">Handknit lace shawl.</figcaption>
+		</figure>
+	</div>
+	<div class="col-lg-4"></div>
+</div>
+
+<br/><br/><br/>
+
+<div class="col-lg-12 photo-bottom-row">
+	<div class="col-lg-3"></div>
+	<div class="col-lg-2">
+		<figure class="figure">
+			<%= image_tag 'me-painting3.png', class: 'figure-img img-fluid', size: '220px', alt: "Pansy painting", style: 'max-width: 104%;' %>
+			<figcaption class="figure-caption">Purple pansy.</figcaption>
+		</figure>
+	</div>
+	<div class="col-lg-2">
+		<figure class="figure">
+			<%= image_tag 'me-painting1.png', class: 'figure-img img-fluid', size: '220px', alt: "Peas painting", style: 'max-width: 104%;' %>
+			<figcaption class="figure-caption">Give peas a chance.</figcaption>
+		</figure>
+	</div>
+	<div class="col-lg-2">
+		<figure class="figure">
+			<%= image_tag 'me-painting2.png', class: 'figure-img img-fluid', size: '220px', alt: "Birb painting", style: 'max-width: 104%;' %>
+			<figcaption class="figure-caption">Birb.</figcaption>
+		</figure>
+	</div>
+	<div class="col-lg-3"></div>
+</div>
+
+<br><br>
+<%= render 'layouts/footer' %>
