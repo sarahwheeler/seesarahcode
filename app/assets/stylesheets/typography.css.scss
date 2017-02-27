@@ -1,7 +1,9 @@
 /* FONT IMPORTS */
 
 	@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,700,600,800,900);
-	@import url(http://fonts.googleapis.com/css?family=Antic);
+	@import url(https://fonts.googleapis.com/css?family=Heebo:100,300,400);
+	@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
 
 
 /*   SASS COLOR VARIABLES   */
@@ -20,8 +22,9 @@
 a, a:visited {
 	color: $emeraldJewel;
 }
+
 a:hover {
-	background-color: #fff !important;
+	background-color: #fff;
 	color: $redJewel;
 }
 
@@ -32,18 +35,20 @@ a:hover {
 	}
 
 	h1 {
+		margin: auto 0;
+		font-size: 5em;
+		font-family: "Heebo";
+		padding-top: 150px;
+		padding-bottom: 30px;
+	}
+
+	h2 {
 		font-family: "Raleway";
 		font-weight: 400;
 		font-size: 2.5em;
 		text-transform: uppercase;
-		color: $pinkJewel;
-		margin-bottom: 75px;
-	}
-
-	h2 {
-		margin: auto 0;
-		font-size: 6em;
-		font-family: "Advent Pro";
+		color: $tealJewel;
+		margin-bottom: 44px;
 	}
 
 	h3 {
@@ -51,14 +56,14 @@ a:hover {
 	}
 
 	h4 {
-		color: $tealJewel;
+		color: #000;
 		font-family: "Raleway", sans-serif;
 	}
 
 /*  TEXT  */
 
 		p {
-			font-family: 'Antic', sans-serif;
+			font-family: 'Open Sans', sans-serif;
 			font-size: 1.2em;
 		}
 
@@ -73,8 +78,15 @@ a:hover {
 		}
 
 		li {
-			font-family: 'Antic', sans-serif;
+			font-family: 'Heebo', sans-serif;
 			font-size: 1.2em;
+			margin-bottom: 6px;
+		}
+
+		.skills-list {
+			font-family: 'Heebo', sans-serif;
+			font-size: 1.05em;
+			margin-bottom: 6px;
 		}
 
 		a {
@@ -175,24 +187,25 @@ a:hover {
 	.job-description, .job-description ul li {
 		text-align: justify;
 		font-size: 1.3em;
-		font-family: 'Antic', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		line-height: 1.4em;
 	}
 
 	p.job-dates {
 		font-size: 1.25em;
 		color: $redJewel;
-		margin: -1px 0 25px 0;
+		margin: -1px 0 10px 0;
 	}
 .job-title {
 	font-size: 1.75em;
 }
 .online-box p {
-	font-family: 'Antic', sans-serif;
-
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	margin-bottom: 5px;	
 }
 .smaller {
-	font-size: 1em;
+	font-size: 0.82em;
 	line-height: 1.3em;
 	margin: -5px 0 11px 0;
 }
@@ -202,7 +215,9 @@ a:hover {
 	color: $redJewel;
 }
 .sidebar-h4 {
+	margin-bottom: 20px;
 	text-align: center;
+	font-size:1.55em;
 }
 .learning-title {
 	color: $pinkJewel !important;
@@ -220,6 +235,12 @@ a:hover {
 	margin-left: 25%;
 }
 
+.res-resume {
+	font-size: 1.25em;
+	line-height: 1.25em;
+	text-transform: uppercase;
+}
+
 /*   PORTFOLIO TYPOGRAPHY  */
 
 	.project-title, a .project-title {
@@ -227,7 +248,7 @@ a:hover {
 		text-align: left;
 		font-weight: 600;
 		font-size: 1.4em;
-		color: $pinkJewel;
+		color: $tealJewel;
 	}
 	a .project-title:hover {
 		text-decoration: none;
@@ -235,8 +256,8 @@ a:hover {
 	}
 
 	p.description, p.gems-libs, p.language {
-		font-family: 'Antic', sans-serif;
-		font-size: 0.8em;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 0.75em;
 		text-align: justify;
 	}
 
@@ -272,10 +293,10 @@ a:hover {
 		color: $pinkJewel;
 	}
 	h4.sidebar-title {
-		padding-bottom: 10px;	
 		border-bottom: dotted 1px $pinkJewel;
-		width: 70%;
 		color: $pinkJewel;
+		padding-bottom: 10px;	
+		width: 70%;
 	}
 	.sidebar-link {
 		color: $pinkJewel !important;
@@ -309,5 +330,13 @@ a:hover {
 		color: $pinkJewel;
 	}
 
+h3.about-me {
+	line-height: 1.15em;
+	text-align: justify;
+}
 
-
+h4.about-me {
+	font-family: "Heebo", sans-serif;
+	line-height: 1.4em;
+	text-align: justify;
+}

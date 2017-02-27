@@ -36,11 +36,4 @@ $(document).ready(function() {
 		event.preventDefault();
 	});
 
-	$('.circle').on('click', function(event) {
-		$('div.circle').removeClass('active');
-		$(this).addClass('active');
-		$(".cultivate-img").slideToggle("slow");
-		$('.cultivate-vid').slideToggle("slow");
-	});
-
 });

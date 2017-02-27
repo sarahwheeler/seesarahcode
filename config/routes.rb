@@ -1,5 +1,5 @@
 Seesarahcode::Application.routes.draw do
-  root "home#recipe"
+  root "home#index"
 
   resources :courses
 
@@ -12,6 +12,7 @@ Seesarahcode::Application.routes.draw do
   get "home/index"
 
   get 'courses/code_school', to: 'courses#code_school'
+  get "home/treehouse_donut", to: "home#treehouse_donut"
 
   get "/admin/superpanel", to: 'admin#superpanel', as: 'superpanel'
   devise_for :admins

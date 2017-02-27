@@ -60,23 +60,18 @@ a:hover .heroku-btn {
 	background: image-url('github-logo-dark.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
-	opacity: 0.75;
+	opacity: 0.7;
 	width: 25px;
 	height: 25px;
 	filter: alpha(opacity=75); /* For IE8 and earlier */
+	float:right;
+	margin-top:22px;
 }
 .port-github:hover {
-	background: image-url('github-logo-blue.png');
-	background-repeat: no-repeat;
-	background-size: 100%;
-	width: 25px;
-	height: 25px;
+	opacity: 1.0;
 }
 .port-title {
 	display: inline-flex;
-}
-.cultivate-vid {
-	display: none;
 }
 .img-nav {
 	display: inline-flex;

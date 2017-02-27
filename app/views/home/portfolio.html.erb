@@ -6,6 +6,31 @@
 		<div class="col-xs-1"></div>
 		<div class="col-xs-4">
 			<!-- Project Images to Go Here-->
+			<%= link_to 'http://teamsnap.com', target: "_blank", alt: "Visit TeamSnap in a new window" do %>
+				<%= image_tag 'teamsnap_screens.png', class: 'img-portfolio', style: "margin-top:50px;border: 1px solid #000", size: "440x244" %>
+			<% end %>
+		</div>
+		<div class="col-xs-1"></div>
+		<div class="col-xs-5">
+			<%= link_to	"TeamSnap", "http://www.teamsnap.com/", target: "_blank", class: "project-title row-link" %>
+			<br />
+			<h4>Written in</h4> 
+				<p class="language">Ruby (Ruby on Rails, Sinatra), JavaScript</p>
+			<h4>Gems and Libraries</h4>
+				<p class="gems-libs">MySQL, RabbitMQ, OpenGraph, Resque, Sidekiq, Chip.js, React</p>
+			<h4>Description</h4> 
+				<p class="description">Starting out as a support engineer, I focused on escalating, documenting, and fixing high-impact bugs across our mobile and web platforms for over 12 million customers. My current work focuses on building our back end Ruby API and microservices for our team-side product, though I do often contribute front end fixes to our evolving JavaScript framework just to stay well-rounded.</p>
+		</div>
+		<div class="col-xs-1"></div>
+	</div>
+</div>
+<br />
+
+<div class="jumbotron port-project">
+	<div class="row">
+		<div class="col-xs-1"></div>
+		<div class="col-xs-4">
+			<!-- Project Images to Go Here-->
 			<%= link_to 'http://theadvisorcenter.com', target: "_blank", alt: "Visit The Advisor Center in a new window" do %>
 				<%= image_tag 'tac_screens.png', class: 'img-portfolio', size: "400x370" %>
 			<% end %>
@@ -13,13 +38,12 @@
 		<div class="col-xs-1"></div>
 		<div class="col-xs-5">
 			<%= link_to	"The Advisor Center", "http://theadvisorcenter.com/", target: "_blank", class: "project-title row-link" %>
-			<%= link_to "http://theadvisorcenter.com/", class: "row-link", target: "_blank", alt: "Visit The Advisor Center in a new window" do %><span class="glyphicon glyphicon-new-window heroku-btn" aria-hidden="true"></span><% end %>
 			<br />
-			<h4>Written in:</h4> 
+			<h4>Written in</h4> 
 				<p class="language">Ruby on Rails, JavaScript</p>
-			<h4>Gems and Libraries:</h4>
+			<h4>Gems and Libraries</h4>
 				<p class="gems-libs">Postgres, AWS (Amazon Web Services), jQuery, Can.js, Mustache, Stylus, Ember.js, Cucumber, Rspec, Capybara</p>
-			<h4>Description:</h4> 
+			<h4>Description</h4> 
 				<p class="description">I was initially brought on to The Advisor Center as a junior developer, but my fast work and adaptability quickly deemed me capable of more demanding tasks within a short period of time. I designed and built a more engaging and streamlined user profile page, implemented site-wide analytics and modal systems, and rebuilt the site's internal messaging system using Ember.js.</p>
 		</div>
 		<div class="col-xs-1"></div>
@@ -32,46 +56,19 @@
 		<div class="col-xs-1"></div>
 		<div class="col-xs-4">
 			<!-- Project Images to Go Here-->
-			<%= image_tag 'riverpen_screen.png', class: 'img-portfolio', alt: "Cultivate website screenshots", size: "420x267" %>
-		</div>
-		<div class="col-xs-1"></div>
-		<div class="col-xs-5">
-			<div class="project-title">Riverpen</div>
-			<div class="icon-belt">
-				<%= link_to "", "http://github.com/sarahwheeler/riverpen", class: "port-github row-link" %>
-			</div>
-			<h4>Written in:</h4> 
-				<p class="language">Ruby on Rails</p>
-			<h4>Gems and Libraries:</h4>
-				<p class="gems-libs">jQuery, Bootstrap</p>
-			<h4>Description:</h4> 
-				<p class="description">Nostalgic for my formative years spent on Livejournal, I decided to build a clone blogging platform designed for the modern era. While it's still in the works (what side project isn't?), the intention is to use a straighforward UI to focus on text journal posts and creative writing.</p>
-		</div>
-		<div class="col-xs-1"></div>
-	</div>
-</div>
-<br />
-
-
-<div class="jumbotron port-project">
-	<div class="row">
-		<div class="col-xs-1"></div>
-		<div class="col-xs-4">
-			<!-- Project Images to Go Here-->
 			<%= image_tag 'seesarahcode_screens.png', class: 'img-portfolio', alt: "SeeSarahCode website screenshots", size: "401x364" %>
 		</div>
 		<div class="col-xs-1"></div>
 		<div class="col-xs-5">
-			<div class="project-title">SeeSarahCode</div>
-			<div class="icon-belt">
-				<%= link_to "", "http://github.com/sarahwheeler/seesarahcode", class: "port-github row-link" %>
-			</div>
-			<h4>Written in:</h4> 
+			<%= link_to	"SeeSarahCode v1.0", "http://www.seesarahcode.com/", class: "project-title row-link" %>
+			<%= link_to "", "http://github.com/sarahwheeler/seesarahcode", class: "port-github row-link" %>
+			<br/>
+			<h4>Written in</h4> 
 				<p class="language">Ruby on Rails</p>
-			<h4>Gems and Libraries:</h4>
+			<h4>Gems and Libraries</h4>
 				<p class="gems-libs">jQuery, Bootstrap, Tumblr API</p>
-			<h4>Description:</h4> 
-				<p class="description">Typically, Ruby on Rails would be serious overkill for a basic, static portfolio website, but I also wanted it to be the host for my blog.</p>
+			<h4>Description</h4> 
+				<p class="description">An earlier incarnation of my site, now redesigned and streamlined for simplicity and minimalism.</p>
 		</div>
 		<div class="col-xs-1"></div>
 	</div>
@@ -82,36 +79,21 @@
 	<div class="row">
 		<div class="col-xs-1"></div>
 		<div class="col-xs-4">
-			<div class="cultivate-img">
-				<%= link_to "http://cultivate.herokuapp.com/", alt: "Cultivate on Heroku" do %>
-				<%= image_tag 'cultivate_screens.png', class: 'img-portfolio', alt: "Cultivate website screenshots", size: "401x364" %>
-				<% end %>
-			</div>
-			<div class="cultivate-vid img-portfolio">
+			<div class="img-portfolio">
 				<iframe width="475" height="267" src="https://www.youtube.com/embed/wepjNsRelKQ?rel=0" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<br>
-			<div class="img-nav">
-				<div class="circle active"></div>
-				<div class="circle"></div>
 			</div>
 			<br>
 		</div>
 		<div class="col-xs-1"></div>
 		<div class="col-xs-5">
 			<%= link_to	"Cultivate", "http://cultivate.herokuapp.com/", class: "project-title row-link" %>
-			<%= link_to "http://cultivate.herokuapp.com/", class: "row-link", alt: "Visit Cultivate on Heroku" do %><span class="glyphicon glyphicon-new-window heroku-btn" aria-hidden="true"></span><% end %>
+			<%= link_to "", "http://github.com/sarahwheeler/cultivate", class: "port-github row-link" %>
 			<br />
-			<div class="icon-belt">
-				<%= link_to "", "http://github.com/sarahwheeler/cultivate", class: "port-github row-link" %>
-    		<%= link_to "", "http://www.youtube.com/watch?v=wepjNsRelKQ", class: "youtube-btn row-link" %>
-			</div> 
-
-			<h4>Written in:</h4> 
+			<h4>Written in</h4> 
 				<p class="language">Ruby on Rails</p>
-			<h4>Gems and Libraries:</h4>
+			<h4>Gems and Libraries</h4>
 				<p class="gems-libs">Devise, Carrierwave, Paperclip, Bootstrap</p>
-			<h4>Description:</h4> 
+			<h4>Description</h4> 
 				<p class="description">A web app that helps small, hobby-sized farms manage their animals and agriculture. This was originally built for my "Applications with Ruby on Rails" course at the University of Washington.</p>
 		</div>
 		<div class="col-xs-1"></div>
@@ -131,17 +113,13 @@
 		<div class="col-xs-1"></div>
 		<div class="col-xs-5">
 			<%= link_to	"Bookbee", "http://blooming-garden-3333.herokuapp.com/", class: "project-title row-link" %>
-			
-			<%= link_to "http://blooming-garden-3333.herokuapp.com/", class: "row-link", alt: "Visit Bookbee on Heroku" do %><span class="glyphicon glyphicon-new-window heroku-btn" aria-hidden="true"></span>
-			<% end %>
-			<div class="icon-belt">
-    		<%= link_to "", "http://github.com/sarahwheeler/bookbee_final", class: "port-github row-link" %>
-			</div>
-			<h4>Written in:</h4> 
+			<%= link_to "", "http://github.com/sarahwheeler/bookbee_final", class: "port-github row-link" %>
+			<br/>
+			<h4>Written in</h4> 
 				<p class="language">Ruby on Rails</p>
-			<h4>Gems and Libraries:</h4>
+			<h4>Gems and Libraries</h4>
 				<p class="gems-libs">Carrierwave, will_paginate, Ratyrate, SimpleCov, Bootstrap</p>
-			<h4>Description:</h4> 
+			<h4>Description</h4> 
 				<p class="description">The capstone project for my "Advanced Topics in Ruby on Rails" course at the University of Washington. I was given 20+ requirements to meet for a social reading app similar to Goodreads. What it lacks in frontend finesse it makes up for in functionality&mdash;it has a robust follow system, admin access, a role-based invitation system, customizable email preferences, tags, and search tools.</p>
 		</div>
 		<div class="col-xs-1"></div>
@@ -161,19 +139,17 @@
 		<div class="col-xs-1"></div>
 		<div class="col-xs-5">
 			<%= link_to	"Log2Layout Gem", "http://github.com/sarahwheeler/Log2Layout", class: "project-title row-link" %>
-			<br>
-			<div class="icon-belt">
-				<%= link_to "", "http://github.com/sarahwheeler/Log2Layout", class: "port-github row-link" %>
-    		<%= link_to "", "http://www.youtube.com/watch?v=7KzTuq585RM", class: "youtube-btn row-link" %>
-			</div>
-			
+			<%= link_to "", "http://github.com/sarahwheeler/Log2Layout", class: "port-github row-link" %>
+			<br>			
 			<h4>Written in:</h4> 
 				<p class="language">Pure Ruby</p>
-			<h4>Gems and Libraries:</h4>
+			<h4>Gems and Libraries</h4>
 				<p class="gems-libs">Mechanize, Logger, Open-URI, Win32OLE</p>
-			<h4>Description:</h4> 
+			<h4>Description</h4> 
 				<p class="description">Culminating project for my "Ruby: The Core Language" class at the University of Washington. This gem was written to perform a time-hungry task at my former job as an editor&mdash;downloading spreadsheet lists of Wikipedia images needed for book production. Log2Layout uses a web scraper to automatically download and rename these images, compacting many hours of work into just a quick one-line command line script. It's so useful, my old production team still uses it to this day!</p>
 		</div>
 		<div class="col-xs-1"></div>
 	</div>
 </div>
+<br><br>
+<%= render 'layouts/footer' %>
