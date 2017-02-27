@@ -1,1 +1,1 @@
-tinymce.PluginManager.add("example_dependency",function(){},["example"]);
+plugin-ffd8970618ae8d5312a7585a880924c4.js
